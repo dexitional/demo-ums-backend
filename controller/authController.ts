@@ -46,7 +46,7 @@ export default class AuthController {
         // SSO Photo
         const photo = `${process.env.UMS_DOMAIN}/api/auth/photos/?tag=${encodeURIComponent(tag)}`;
         // Roles & Privileges
-        const roles: any = await sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, appModule: { select: { app: true }} } } });
+        const roles: any = await sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, app:true } } } });
         const evsRoles: any = await sso.election.findMany({
           where: {
             status: true,

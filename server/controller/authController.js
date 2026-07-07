@@ -62,7 +62,7 @@ class AuthController {
                     // SSO Photo
                     const photo = `${process.env.UMS_DOMAIN}/api/auth/photos/?tag=${encodeURIComponent(tag)}`;
                     // Roles & Privileges
-                    const roles = yield sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, appModule: { select: { app: true } } } } } });
+                    const roles = yield sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, app: true } } } });
                     const evsRoles = yield sso.election.findMany({
                         where: {
                             status: true,
