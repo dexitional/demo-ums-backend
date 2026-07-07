@@ -1,0 +1,714 @@
+// ACADEMIC MANAGEMENT SYSTEMS
+view broadsheet {
+  id               String   @unique
+  sessionId        String
+  schemeId         String
+  courseId         String
+  indexno          String
+  credit           Int
+  semesterNum      Int
+  classScore       Float
+  examScore        Float
+  totalScore       Float
+  type             String
+  courseTitle      String
+  fname            String
+  mname            String
+  lname            String
+  studentId        String
+  entryDate        DateTime
+  gender           String
+  program          String
+  programShortName String
+  major            String
+  majorShortName   String
+  stype            String
+  category         String
+  programId        String
+  majorId          String
+  gradeMeta        Json
+  classMeta        Json
+  title            String
+  semester         String
+  year             String
+  cgpa             String
+  class            String
+  curSemesterNum   Int
+  status           Boolean
+  completeStatus   Boolean
+  graduateStatus   Boolean
+  deferStatus      Boolean
+  sessionCreatedAt DateTime
+  createdAt        DateTime
+  updatedAt        DateTime
+}
+
+model policy {
+  id        String   @id @default(uuid())
+  tag       String   @db.VarChar(255)
+  title     String   @db.VarChar(255)
+  type      String
+  meta      Json?
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("ais_policy")
+}
+
+model scheme {
+  id         String   @id @default(uuid())
+  title      String   @db.VarChar(255)
+  gradeMeta  Json
+  classMeta  Json
+  scoreRange Json
+  passMark   Float
+  status     Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  program         program[]
+  assessment      assessment[]
+  resit           resit[]
+  activityBacklog activityBacklog[]
+
+  @@map("ais_scheme")
+}
+
+model mode {
+  id        String   @id @default(uuid())
+  code      String   @db.VarChar(50)
+  title     String   @db.VarChar(255)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  program program[]
+}
+
+model course {
+  id            String        @id
+  title         String        @db.VarChar(450)
+  creditHour    Int
+  theoryHour    Int?
+  practicalHour Int?
+  remark        courseRemark?
+  status        Boolean       @default(true)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  structure         structure[]
+  assessment        assessment[]
+  sheet             sheet[]
+  resit             resit[]
+  courseEvaluations courseEvaluation[]
+
+  @@map("ais_course")
+}
+
+model major {
+  id        String   @id @default(uuid())
+  programId String?
+  shortName String?  @db.VarChar(255)
+  longName  String?  @db.VarChar(355)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  program    program?     @relation(fields: [programId], references: [id])
+  student    student[]
+  structure  structure[]
+  sheet      sheet[]
+  fresher    fresher[]
+  stepChoice stepChoice[]
+  structmeta structmeta[]
+
+  @@map("ais_major")
+}
+
+model program {
+  id            String          @id @default(uuid())
+  tag           String?         @db.Text
+  schemeId      String?
+  unitId        String?
+  modeId        String?
+  code          String          @db.VarChar(50)
+  prefix        String?         @db.VarChar(50)
+  stype         Int?
+  shortName     String          @db.VarChar(255)
+  longName      String          @db.VarChar(450)
+  category      programCategory
+  semesterTotal Int?            @db.Int
+  creditTotal   Int?            @db.Int
+  shallAdmit    Boolean         @default(false)
+  hasMajor      Boolean         @default(false)
+  status        Boolean         @default(true)
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+
+  scheme     scheme? @relation(fields: [schemeId], references: [id])
+  department unit?   @relation(fields: [unitId], references: [id])
+  mode       mode?   @relation(fields: [modeId], references: [id])
+
+  student    student[]
+  structure  structure[]
+  structmeta structmeta[]
+  oldprogram activityProgchange[] @relation("oldprogram")
+  newprogram activityProgchange[] @relation("newprogram")
+  sheet      sheet[]
+  bill       bill[]
+  fresher    fresher[]
+  stepChoice stepChoice[]
+  major      major[]
+
+  @@map("ais_program")
+}
+
+model student {
+  id                String             @id @unique
+  indexno           String?            @unique @db.VarChar(50)
+  titleId           String?
+  fname             String?            @db.VarChar(255)
+  mname             String?            @db.VarChar(350)
+  lname             String?            @db.VarChar(255)
+  gender            String?            @db.VarChar(20)
+  dob               DateTime?          @db.DateTime(3)
+  maritalId         String?
+  email             String?            @db.VarChar(255)
+  phone             String?            @db.VarChar(25)
+  hometown          String?            @db.VarChar(255)
+  address           String?            @db.VarChar(350)
+  guardianName      String?            @db.VarChar(350)
+  guardianPhone     String?            @db.VarChar(15)
+  ghcardNo          String?            @db.VarChar(255)
+  nationalityId     String?
+  countryId         String?
+  regionId          String?
+  religionId        String?
+  disabilityId      String?
+  programId         String?
+  majorId           String?
+  progCount         Int?               @db.Int
+  semesterNum       Int?               @db.Int
+  semesterDone      Int?               @db.Int
+  creditDone        Int?               @db.Int
+  entrySemesterNum  Int?               @db.Int
+  entryGroup        entryGroup?        @default(GH)
+  entryDate         DateTime?          @db.DateTime(0)
+  exitDate          DateTime?          @db.DateTime(0)
+  residentialStatus residentialStatus?
+  studyMode         studyMode?
+  deferStatus       Boolean            @default(false)
+  completeStatus    Boolean            @default(false)
+  completeType      completeType?
+  graduateStatus    Boolean            @default(false)
+  instituteEmail    String?            @db.VarChar(350)
+  instituteAffliate String?            @db.VarChar(350)
+  flagPardon        Boolean            @default(false)
+  accountNet        Float?             @default(0) @db.Float
+
+  title       title?      @relation(fields: [titleId], references: [id])
+  nationality country?    @relation("studentNationality", fields: [nationalityId], references: [id])
+  country     country?    @relation("studentCountry", fields: [countryId], references: [id])
+  region      region?     @relation(fields: [regionId], references: [id])
+  religion    religion?   @relation(fields: [religionId], references: [id])
+  disability  disability? @relation(fields: [disabilityId], references: [id])
+  program     program?    @relation(fields: [programId], references: [id])
+  major       major?      @relation(fields: [majorId], references: [id])
+
+  activityProgchange activityProgchange[]
+  activityDefer      activityDefer[]
+  activityRegister   activityRegister[]
+  activityProgress   activityProgress[]
+  transwift          transwift[]
+  resit              resit[]
+  charge             charge[]
+  transaction        transaction[]
+  studentAccount     studentAccount[]
+  assessment         assessment[]
+  fresher            fresher[]
+  marital            marital?             @relation(fields: [maritalId], references: [id])
+  graduate           graduate?
+  courseEvaluations  courseEvaluation[]
+
+  @@map("ais_student")
+}
+
+model session {
+  id               String          @id @default(uuid())
+  tag              String?         @default("main") @db.VarChar(50)
+  title            String          @db.VarChar(255)
+  year             String?         @db.VarChar(50)
+  semester         semesterNumbers
+  registerStart    DateTime?       @db.DateTime(0)
+  registerEnd      DateTime?       @db.DateTime(0)
+  registerEndLate  DateTime?       @db.DateTime(0)
+  registerPause    Boolean         @default(false)
+  orientStart      DateTime?       @db.DateTime(0)
+  orientEnd        DateTime?       @db.DateTime(0)
+  lectureStart     DateTime?       @db.DateTime(0)
+  lectureEnd       DateTime?       @db.DateTime(0)
+  paymentEnd       DateTime?       @db.DateTime(0)
+  matriculateStart DateTime?       @db.DateTime(0)
+  medicalStart     DateTime?       @db.DateTime(0)
+  medicalEnd       DateTime?       @db.DateTime(0)
+  examStart        DateTime?       @db.DateTime(0)
+  examEnd          DateTime?       @db.DateTime(0)
+  entryStart       DateTime?       @db.DateTime(0)
+  entryEnd         DateTime?       @db.DateTime(0)
+  admissionPrefix  String?
+  assignLateSheet  Boolean         @default(false)
+  progressStudent  Boolean         @default(false)
+  stageSheet       Boolean         @default(false)
+  default          Boolean         @default(false)
+  status           Boolean         @default(true)
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+  evaluationStart  DateTime?       @db.DateTime(0)
+  evaluationEnd    DateTime?       @db.DateTime(0)
+
+  activityRegister   activityRegister[]
+  activityProgress   activityProgress[]
+  activityProgchange activityProgchange[]
+  activityDefer      activityDefer[]
+  assessment         assessment[]
+  sheet              sheet[]
+  trailSession       resit[]              @relation("trailSession")
+  registerSession    resit[]              @relation("registerSession")
+  bill               bill[]
+  studentAccount     studentAccount[]
+  admission          admission[]
+  fresher            fresher[]
+  activityBacklog    activityBacklog[]
+  courseEvaluations  courseEvaluation[]
+
+  @@map("ais_session")
+}
+
+model structure {
+  id          String     @id @default(uuid())
+  unitId      String?
+  programId   String
+  majorId     String?
+  courseId    String
+  semesterNum Int
+  type        courseType
+  lock        Boolean    @default(false)
+  status      Boolean    @default(true)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  unit    unit?    @relation(fields: [unitId], references: [id])
+  program program? @relation(fields: [programId], references: [id])
+  major   major?   @relation(fields: [majorId], references: [id])
+  course  course?  @relation(fields: [courseId], references: [id])
+
+  @@map("ais_structure")
+}
+
+model structmeta {
+  id             String   @id @default(uuid())
+  programId      String
+  majorId        String?
+  semesterNum    Int
+  minCredit      Int
+  maxCredit      Int
+  maxElectiveNum Int?
+  status         Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  program program? @relation(fields: [programId], references: [id])
+  major   major?   @relation(fields: [majorId], references: [id])
+
+  @@map("ais_structmeta")
+}
+
+model activityRegister {
+  id          String   @id @default(uuid())
+  sessionId   String?
+  indexno     String?  @db.VarChar(50)
+  courses     Int
+  credits     Int
+  semesterNum Int
+  dump        Json?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  session session? @relation(fields: [sessionId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  student student? @relation(fields: [indexno], references: [indexno], onDelete: NoAction, onUpdate: NoAction)
+
+  @@map("ais_activity_register")
+}
+
+model activityProgress {
+  id          String   @id @default(uuid())
+  sessionId   String
+  indexno     String   @db.VarChar(50)
+  semesterNum Int
+  status      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  session session? @relation(fields: [sessionId], references: [id])
+  student student? @relation(fields: [indexno], references: [indexno])
+
+  @@map("ais_activity_progress")
+}
+
+model activityProgchange {
+  id             String    @id @default(uuid())
+  sessionId      String?
+  studentId      String
+  oldIndexno     String    @db.VarChar(50)
+  newIndexno     String?   @db.VarChar(50)
+  oldProgramId   String
+  newProgramId   String?
+  newSemesterNum Int
+  reason         String?   @db.VarChar(255)
+  approved       Boolean   @default(true)
+  approvedBy     String?
+  approvedAt     DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  session    session? @relation(fields: [sessionId], references: [id])
+  student    student? @relation(fields: [studentId], references: [id])
+  oldprogram program? @relation("oldprogram", fields: [oldProgramId], references: [id])
+  newprogram program? @relation("newprogram", fields: [newProgramId], references: [id])
+
+  @@map("ais_activity_progchange")
+}
+
+model activityDefer {
+  id              String      @id @default(uuid())
+  sessionId       String?
+  indexno         String?     @db.VarChar(50)
+  semesterNum     Int
+  letterDate      DateTime?
+  reason          String?     @db.VarChar(255)
+  durationInYears Int         @default(1)
+  status          deferStatus @default(PENDED)
+  statusBy        String?
+  start           DateTime?
+  end             DateTime?
+  createdBy       String?
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  session session? @relation(fields: [sessionId], references: [id])
+  student student? @relation(fields: [indexno], references: [indexno])
+
+  @@map("ais_activity_defer")
+}
+
+model activityBacklog {
+  id         String       @id @default(uuid())
+  sessionId  String?
+  schemeId   String?
+  title      String?
+  type       backlogType?
+  meta       Json?
+  status     Boolean      @default(false)
+  approvedBy String?
+  createdBy  String?
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  session  session? @relation(fields: [sessionId], references: [id])
+  scheme   scheme?  @relation(fields: [schemeId], references: [id])
+  creator  staff?   @relation("creator", fields: [createdBy], references: [staffNo])
+  approver staff?   @relation("approver", fields: [approvedBy], references: [staffNo])
+
+  @@map("ais_activity_backlog")
+}
+
+model assessment {
+  id          String    @id @default(uuid())
+  sessionId   String
+  schemeId    String
+  courseId    String
+  indexno     String
+  credit      Int
+  semesterNum Int
+  classScore  Float?
+  examScore   Float?
+  totalScore  Float?
+  type        scoreType
+  scoreA      Float?
+  scoreB      Float?
+  scoreC      Float?
+  status      Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  session session @relation(fields: [sessionId], references: [id])
+  scheme  scheme  @relation(fields: [schemeId], references: [id])
+  course  course  @relation(fields: [courseId], references: [id])
+  student student @relation(fields: [indexno], references: [indexno])
+
+  @@index([sessionId, courseId, indexno])
+  @@index([sessionId, courseId, semesterNum])
+  @@map("ais_assessment")
+}
+
+model informer {
+  id         String   @id @default(uuid())
+  reference  String?
+  title      String   @db.VarChar(350)
+  content    String?  @db.Text
+  smsContent String?  @db.Text
+  receiver   receiver
+  status     Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("informer")
+}
+
+model letter {
+  id        String   @id @default(uuid())
+  tag       String?
+  title     String   @db.VarChar(350)
+  signatory String   @db.Text
+  signature String   @db.LongText
+  template  String   @db.LongText
+  cc        String?  @db.Text
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("ais_letter")
+}
+
+model sheet {
+  id            String  @id @default(uuid())
+  sessionId     String
+  courseId      String
+  unitId        String?
+  programId     String
+  majorId       String?
+  assignStaffId String?
+  assessorId    String?
+  certifierId   String?
+  semesterNum   Int
+  studyMode     String? @db.VarChar(50)
+  studentCount  Int?    @default(0)
+  completeRatio Float?
+
+  classTimetable Json? // Captures Multiple Days for a course eg: Tues - 2 credits, Fri - 1 credit
+  examTimetable  Json? // Captures
+
+  assessed  Boolean  @default(false)
+  certified Boolean  @default(false)
+  finalized Boolean  @default(false)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  session   session? @relation(fields: [sessionId], references: [id])
+  program   program? @relation(fields: [programId], references: [id])
+  major     major?   @relation(fields: [majorId], references: [id])
+  course    course?  @relation(fields: [courseId], references: [id])
+  unit      unit?    @relation(fields: [unitId], references: [id])
+  assignee  staff?   @relation("assignee", fields: [assignStaffId], references: [staffNo])
+  assessor  staff?   @relation("assessor", fields: [assessorId], references: [staffNo])
+  certifier staff?   @relation("certifier", fields: [certifierId], references: [staffNo])
+
+  @@index([sessionId, programId, courseId, semesterNum, majorId])
+  @@map("ais_sheet")
+}
+
+model transwift {
+  id          String          @id @default(uuid())
+  studentId   String
+  transactId  String          @unique
+  applicant   String?         @db.VarChar(350)
+  receipient  String?         @db.Text
+  quantity    Int             @default(0)
+  mode        pickMode?       @default(PICKUP)
+  version     transwiftType?  @default(SOFTCOPY)
+  status      transwiftStatus @default(PENDED)
+  issuerId    String?
+  printedAt   DateTime?
+  completedAt DateTime?
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  student  student?     @relation(fields: [studentId], references: [id])
+  transact transaction? @relation(fields: [transactId], references: [id])
+  issuer   staff?       @relation(fields: [issuerId], references: [staffNo])
+
+  @@map("ais_transwift")
+}
+
+model graduateSession {
+  id          String     @id @default(uuid())
+  title       String     @db.VarChar(350)
+  description String?    @db.VarChar(650)
+  start       DateTime?
+  end         DateTime?
+  certCode    String?
+  default     Boolean    @default(false)
+  status      Boolean    @default(true)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  graduate    graduate[]
+
+  @@map("ais_graduate_session")
+}
+
+model graduate {
+  id                String    @id @default(uuid())
+  graduateSessionId String
+  indexno           String    @unique
+  cgpa              String?
+  class             String?
+  certNo            String?
+  certPrinted       Boolean   @default(false)
+  verified          Boolean   @default(false)
+  verifiedRemark    String?   @db.Text
+  certPrintedBy     String?
+  certPrintedAt     DateTime?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  printIssuer     staff?          @relation(fields: [certPrintedBy], references: [staffNo])
+  graduateSession graduateSession @relation(fields: [graduateSessionId], references: [id])
+  student         student         @relation(fields: [indexno], references: [indexno])
+
+  @@map("ais_graduate")
+}
+
+model graduateLog {
+  id              String   @id @default(uuid())
+  graduateSession String
+  indexno         String
+  meta            String?
+  reason          String?  @db.Text
+  createdAt       DateTime @default(now())
+
+  @@unique([indexno, graduateSession])
+  @@map("ais_graduate_log")
+}
+
+model resitSession {
+  id        String    @id @default(uuid())
+  title     String    @db.VarChar(350)
+  start     DateTime?
+  end       DateTime?
+  period    DateTime?
+  default   Boolean   @default(false)
+  status    Boolean   @default(true)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  resit resit[]
+
+  @@map("ais_resit_session")
+}
+
+model resit {
+  id                String      @id @default(uuid())
+  resitSessionId    String?
+  registerSessionId String?
+  trailSessionId    String
+  schemeId          String
+  courseId          String
+  indexno           String      @db.VarChar(50)
+  semesterNum       Int
+  totalScore        Int?
+  approveScore      Boolean     @default(false)
+  taken             Boolean     @default(false)
+  paid              Boolean     @default(false)
+  actionType        actionType?
+  actionMeta        Json?
+  registeredAt      DateTime?
+  entryAt           DateTime?
+  approvedAt        DateTime?
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+
+  resitSession    resitSession? @relation(fields: [resitSessionId], references: [id])
+  trailSession    session?      @relation("trailSession", fields: [trailSessionId], references: [id])
+  registerSession session?      @relation("registerSession", fields: [registerSessionId], references: [id])
+  scheme          scheme?       @relation(fields: [schemeId], references: [id])
+  course          course?       @relation(fields: [courseId], references: [id])
+  student         student?      @relation(fields: [indexno], references: [indexno])
+
+  @@unique(name: "resitId", [trailSessionId, indexno, courseId])
+  @@map("ais_resit")
+}
+
+// Evaluation Option Model
+model evaluationOption {
+  id        String   @id @default(uuid())
+  option    String   @db.VarChar(100)
+  value     Int // Numeric value for scoring
+  orderNum  Int
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  responses evaluationResponse[]
+
+  @@map("evaluation_option")
+}
+
+// Evaluation Question Model
+model evaluationQuestion {
+  id        String   @id @default(uuid())
+  question  String   @db.VarChar(500)
+  category  String   @db.VarChar(100)
+  type      String   @db.VarChar(50) // 'likert' or 'text'
+  orderNum  Int
+  required  Boolean  @default(true)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  responses evaluationResponse[]
+
+  @@map("evaluation_question")
+}
+
+// Course Evaluation Model
+model courseEvaluation {
+  id          String    @id @default(uuid())
+  courseId    String
+  staffNo     String?
+  indexno     String?
+  sessionId   String?
+  status      String    @db.VarChar(50) // 'completed', 'in_progress', 'not_started'
+  startedAt   DateTime?
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  course    course               @relation(fields: [courseId], references: [id])
+  staff     staff?               @relation(fields: [staffNo], references: [staffNo])
+  student   student?             @relation(fields: [indexno], references: [indexno])
+  session   session?             @relation(fields: [sessionId], references: [id])
+  responses evaluationResponse[]
+
+  @@unique([indexno, sessionId, courseId])
+  @@map("evaluation")
+}
+
+// Evaluation Response Model
+model evaluationResponse {
+  id           String   @id @default(uuid(7))
+  evaluationId String
+  questionId   String
+  optionId     String?
+  response     String?  @db.Text
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  evaluation courseEvaluation   @relation(fields: [evaluationId], references: [id], onDelete: Cascade)
+  question   evaluationQuestion @relation(fields: [questionId], references: [id])
+  option     evaluationOption?  @relation(fields: [optionId], references: [id])
+
+  @@unique([evaluationId, questionId])
+  @@map("evaluation_response")
+}

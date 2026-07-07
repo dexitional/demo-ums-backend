@@ -1,0 +1,594 @@
+// HRS - HUMAN RESOURCE MANAGEMENT 
+
+model job {
+  id              String         @id @default(uuid())
+  title           String         @db.VarChar(255)
+  type            jobType
+  yearsToNextRank Int?
+  allowNextRank   Boolean        @default(true)
+  staffCategory   staffCategory?
+  status          Boolean        @default(true)
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  promotion promotion[]
+  staff     staff[]
+
+  @@map("hrs_job")
+}
+
+model scale {
+  id            String        @id @default(uuid())
+  grade         String?       @db.VarChar(350)
+  gradeNum      Int?
+  notch         Int?
+  notchAmount   Float?
+  level         scaleLevel
+  staffCategory staffCategory
+  status        Boolean       @default(true)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  promotion promotion[]
+  position  position[]
+
+  @@map("hrs_scale")
+}
+
+/**
+ * Background Information
+ */
+
+model staff {
+  staffNo         String      @id @unique
+  titleId         String?
+  fname           String      @db.VarChar(255)
+  mname           String?     @db.VarChar(350)
+  lname           String      @db.VarChar(255)
+  gender          String      @db.VarChar(20)
+  dob             DateTime?   @db.Date
+  maritalId       String?
+  disabilities    String?     @db.VarChar(350)
+  phone           String?     @unique @db.VarChar(20)
+  email           String?     @unique @db.VarChar(255)
+  hometown        String?     @db.VarChar(255)
+  birthplace      String?     @db.VarChar(255)
+  district        String?     @db.VarChar(255)
+  ssnitNo         String?     @unique @db.VarChar(255)
+  ghcardNo        String?     @unique @db.VarChar(255)
+  residentAddress String?     @db.VarChar(350)
+  ssoPhone        String?     @db.VarChar(15)
+  ssoAddress      String?     @db.VarChar(350)
+  occupation      String?     @db.VarChar(350)
+  qualification   String?     @db.VarChar(650)
+  instituteEmail  String?     @db.VarChar(350)
+  countryId       String?
+  regionId        String?
+  religionId      String?
+  unitId          String?
+  jobId           String?
+  jobMode         String?     @db.VarChar(350)
+  firstOfferId    String?
+  promotionId     String?
+  positionId      String?
+  status          Boolean     @default(true)
+  staffStatus     staffStatus @default(PERMANENT)
+  exitDate        DateTime?   @db.Date
+  exitRemark      String?     @db.Text
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  title      title?     @relation(fields: [titleId], references: [id])
+  marital    marital?   @relation(fields: [maritalId], references: [id])
+  country    country?   @relation(fields: [countryId], references: [id])
+  region     region?    @relation(fields: [regionId], references: [id])
+  religion   religion?  @relation(fields: [religionId], references: [id])
+  unit       unit?      @relation(fields: [unitId], references: [id])
+  job        job?       @relation(fields: [jobId], references: [id])
+  firstOffer promotion? @relation("firstOffer", fields: [firstOfferId], references: [id])
+  promotion  promotion? @relation("promotion", fields: [promotionId], references: [id])
+  position   position?  @relation("position", fields: [positionId], references: [id]) // For Official Positions
+
+  transwift          transwift[]
+  staffPromotion     promotion[]        @relation("staffPromotion")
+  staffPosition      position[]         @relation("staffPosition")
+  assignee           sheet[]            @relation("assignee")
+  assessor           sheet[]            @relation("assessor")
+  certifier          sheet[]            @relation("certifier")
+  backlogCreator     activityBacklog[]  @relation("creator")
+  backlogApprover    activityBacklog[]  @relation("approver")
+  courseEvaluations  courseEvaluation[]
+  supervisor         respondent[]       @relation("supervisor")
+  respondent         respondent[]       @relation("respondent")
+  deferer            leaveDefer[]       @relation("deferer")
+  deferSupervisor    leaveDefer[]       @relation("deferSupervisor")
+  deferApprover      leaveDefer[]       @relation("deferApprover")
+  groupLeaveApprover leaveApprover[]    @relation("groupLeaveApprover")
+  balanceReceiver    leaveBalance[]     @relation("balanceReceiver")
+  leaveApplicant     leaveRequest[]     @relation("leaveApplicant")
+  leaveSupervisor    leaveRequest[]     @relation("leaveSupervisor")
+  leaveReliever      leaveRequest[]     @relation("leaveReliever")
+  leaveApprover      leaveRequest[]     @relation("leaveApprover")
+  transferApplicant  transfer[]         @relation("transferApplicant")
+  transferApprover   transfer[]         @relation("transferApprover")
+  transferCreator    transfer[]         @relation("transferCreator")
+  relatives          relative[]
+  certPrintIssuer    graduate[]
+
+  @@map("hrs_staff")
+}
+
+model nss {
+  nssNo           String    @id @unique
+  titleId         String?
+  fname           String    @db.VarChar(255)
+  mname           String?   @db.VarChar(350)
+  lname           String    @db.VarChar(255)
+  gender          String    @db.VarChar(20)
+  dob             DateTime? @db.Date
+  maritalId       String?
+  disabilities    String?   @db.VarChar(350)
+  phone           String?   @unique @db.VarChar(20)
+  email           String?   @unique @db.VarChar(255)
+  hometown        String?   @db.VarChar(255)
+  birthplace      String?   @db.VarChar(255)
+  district        String?   @db.VarChar(255)
+  ssnitNo         String?   @unique @db.VarChar(255)
+  ghcardNo        String?   @unique @db.VarChar(255)
+  residentAddress String?   @db.VarChar(350)
+  ssoPhone        String?   @db.VarChar(15)
+  ssoAddress      String?   @db.VarChar(350)
+  qualification   String?   @db.VarChar(650)
+  countryId       String?
+  regionId        String?
+  religionId      String?
+  unitId          String?
+  nssStatus       nssStatus @default(ACTIVE)
+  status          Boolean   @default(true)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  title    title?    @relation(fields: [titleId], references: [id])
+  marital  marital?  @relation(fields: [maritalId], references: [id])
+  country  country?  @relation(fields: [countryId], references: [id])
+  region   region?   @relation(fields: [regionId], references: [id])
+  religion religion? @relation(fields: [religionId], references: [id])
+  unit     unit?     @relation(fields: [unitId], references: [id])
+
+  @@map("hrs_nss")
+}
+
+model relative {
+  id         String   @id @default(uuid())
+  staffId    String
+  relationId String
+  titleId    String?
+  code       String
+  fname      String   @db.VarChar(255)
+  mname      String?  @db.VarChar(350)
+  lname      String   @db.VarChar(255)
+  gender     String   @db.VarChar(20)
+  dob        DateTime @db.DateTime(3)
+  phone      String   @db.VarChar(20)
+  address    String?  @db.VarChar(350)
+  hometown   String?  @db.VarChar(255)
+  isKin      Boolean  @default(true)
+  isAlive    Boolean  @default(true)
+  status     Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  title    title?   @relation(fields: [titleId], references: [id])
+  relation relation @relation(fields: [relationId], references: [id])
+  staff    staff    @relation(fields: [staffId], references: [staffNo])
+
+  @@map("hrs_relative")
+}
+
+/**
+ * Promotion & Appointment Module
+ */
+model promotion {
+  id            String        @id @default(uuid())
+  staffNo       String?
+  jobId         String?
+  scaleId       String?
+  staffCategory staffCategory
+  letterDate    DateTime?     @db.Date // Date on Letter 
+  effectiveDate DateTime?     @db.Date // Effective Date
+  assumeDate    DateTime?     @db.Date // Appointment - Assumption Date
+  confirmDate   DateTime?     @db.Date // Appointment - Confirmation Date
+  probation     Int?
+  type          promoType     @default(APPOINTMENT)
+  status        Boolean       @default(true)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  staff      staff?  @relation("staffPromotion", fields: [staffNo], references: [staffNo])
+  job        job?    @relation(fields: [jobId], references: [id])
+  scale      scale?  @relation(fields: [scaleId], references: [id])
+  firstOffer staff[] @relation("firstOffer")
+  promotion  staff[] @relation("promotion")
+
+  @@map("hrs_promotion")
+}
+
+/**
+ * Utility Module
+ */
+model qualification {
+  id String @id @default(uuid())
+
+  @@map("hrs_qualification")
+}
+
+model specialization {
+  id String @id @default(uuid())
+
+  @@map("hrs_specialization")
+}
+
+model paper {
+  id String @id @default(uuid())
+
+  @@map("hrs_paper") // Tracks Journals, training, workshop, conferences and others
+}
+
+model circular {
+  id       String  @id @default(uuid())
+  uploadId String? // Form Type - Appraisal-form-a, Appraisal-form-b
+
+  upload upload? @relation(fields: [uploadId], references: [id])
+
+  @@map("hrs_circular") // General Notices, 
+}
+
+/**
+ * HR Surveys & Forms
+ */
+model upload {
+  id         String  @id @default(uuid())
+  title      String
+  uploadType String? // CV,RESPONSE, 
+  mime       String? // Document Type
+  path       String?
+
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  options   option[]
+  circulars circular[]
+  responses response[]
+
+  @@map("hrs_upload")
+}
+
+model question {
+  id        String  @id @default(uuid())
+  formId    String? // Form Type - Appraisal-form-a, Appraisal-form-b
+  sectionId String? // Question Category/Section
+  code      String? // Unique Search Code
+  title     String? @db.Text // Question 
+  orderNum  Int? // Question Number or Order
+  preview   String? // input,text,radio,checkbox,
+
+  form    form?    @relation(fields: [formId], references: [id])
+  section section? @relation(fields: [sectionId], references: [id])
+
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  options   option[]
+  responses response[]
+
+  @@map("hrs_question")
+}
+
+model section {
+  id        String     @id @default(uuid())
+  title     String
+  type      String?
+  formType  String?
+  path      String?
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  questions question[]
+
+  @@map("hrs_section")
+}
+
+model option {
+  id         String    @id @default(uuid())
+  questionId String? // Form Type - Appraisal-form-a, Appraisal-form-b
+  atttachId  String? // Embedded Images, Audio or video
+  title      String?   @db.Text // Option Text 
+  tag        String?   @db.VarChar(350)
+  orderNum   Int? // Question Number or Order
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  question   question? @relation(fields: [questionId], references: [id])
+  attach     upload?   @relation(fields: [atttachId], references: [id])
+
+  @@map("hrs_option")
+}
+
+model response {
+  id           String  @id @default(uuid())
+  respondentId String? // Form Type - Appraisal-form-a, Appraisal-form-b
+  questionId   String? // Form Type - Appraisal-form-a, Appraisal-form-b
+  attachId     String? // Embedded Images, Audio or video
+  content      String? @db.Text // Option Text 
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  question   question?   @relation(fields: [questionId], references: [id])
+  respondent respondent? @relation(fields: [respondentId], references: [id])
+  attach     upload?     @relation(fields: [attachId], references: [id])
+
+  @@map("hrs_response")
+}
+
+model form {
+  id        String   @id @default(uuid())
+  typeId    String?
+  title     String // APPRAISAL FORM A, APPRAISAL FORM B, JS PROMOTION FORM, JS PROMOTION FORM, JS APPOINTMENT FORM , STAFF RECRUITMENT FORM, NSS RECRUITMENT FORM, STUDY LEAVE FORM A, STUDY LEAVE FORM B 
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  type      type?      @relation(fields: [typeId], references: [id])
+  questions question[]
+
+  @@map("hrs_form")
+}
+
+model type {
+  id        String   @id @default(uuid())
+  title     String // APPRAISAL, PROMOTION, APPOINTMENT, RECRUITMENT, STUDY LEAVE, MISCELLANEOUS 
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  forms form[]
+
+  @@map("hrs_form_type")
+}
+
+model respondent {
+  id           String            @id @default(uuid())
+  formId       String? // Form Type - Appraisal-form-a, Appraisal-form-b
+  staffId      String? // Respondent Staff Number
+  nssId        String? // Respondent Staff Number
+  supervisorId String? // Supervisor Staff Number
+  tag          String? // Unique  or Searchable Tag for survey
+  responseMeta Json? // Statuses and Other Important Information
+  status       respondentStatus? @default(HEAD_PENDING)
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+
+  staff      staff?     @relation("respondent", fields: [staffId], references: [staffNo])
+  supervisor staff?     @relation("supervisor", fields: [supervisorId], references: [staffNo])
+  responses  response[]
+
+  @@map("hrs_respondent")
+}
+
+/**
+ * Official Positions & Assignments
+ */
+
+model position {
+  id             String        @id @default(uuid())
+  staffNo        String?
+  positionInfoId String?
+  scaleId        String?
+  staffCategory  staffCategory
+  letterAt       DateTime
+  startAt        DateTime
+  endAt          DateTime
+  duration       Int?
+  type           positionType  @default(APPOINTMENT)
+  status         Boolean       @default(true)
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  staff        staff?        @relation("staffPosition", fields: [staffNo], references: [staffNo])
+  positionInfo positionInfo? @relation(fields: [positionInfoId], references: [id])
+  scale        scale?        @relation(fields: [scaleId], references: [id])
+  position     staff[]       @relation("position")
+
+  @@map("hrs_position")
+}
+
+model positionInfo {
+  id              String        @id @default(uuid())
+  unitId          String?
+  title           String        @db.VarChar(255)
+  description     String?       @db.Text
+  duties          String?       @db.Text
+  allowances      Json?
+  durationInYears Int?
+  renewalInYears  Int?
+  staffCategory   staffCategory
+  status          Boolean       @default(true)
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  unit     unit?      @relation(fields: [unitId], references: [id])
+  position position[]
+
+  @@map("hrs_position_info")
+}
+
+/**
+ * Transfer Module
+ */
+
+model transfer {
+  id            String            @id @default(uuid())
+  staffId       String?
+  approverId    String?
+  creatorId     String?
+  fromUnitId    String?
+  toUnitId      String?
+  reason        String?           @db.VarChar(350)
+  applyType     transferApplyType
+  letterDate    DateTime
+  effectiveDate DateTime
+  approvedOn    DateTime?
+  status        leaveStatus
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  fromUnit         unit?  @relation("fromUnit", fields: [fromUnitId], references: [id])
+  toUnit           unit?  @relation("toUnit", fields: [toUnitId], references: [id])
+  staff            staff? @relation("transferApplicant", fields: [staffId], references: [staffNo])
+  transferApprover staff? @relation("transferApprover", fields: [approverId], references: [staffNo])
+  transferCreator  staff? @relation("transferCreator", fields: [creatorId], references: [staffNo])
+
+  @@map("hrs_transfer")
+}
+
+/**
+ * Leave Module
+ */
+
+model leaveRequest {
+  id               String      @id @default(uuid())
+  leaveCategoryId  String?
+  staffId          String?
+  relieverId       String?
+  supervisorId     String?
+  approverId       String?
+  leaveWeight      Int         @default(0)
+  entitledWeight   Int         @default(0)
+  sosPhone         String?
+  sosAddress       String?
+  supervisorRemark String?     @db.Text
+  startDate        DateTime?   @db.Date
+  endDate          DateTime?   @db.Date
+  resumeDate       DateTime?   @db.Date
+  approvedDate     DateTime?   @db.Date
+  flagResumed      Boolean     @default(false)
+  status           leaveStatus
+  createdAt        DateTime    @default(now())
+  updatedAt        DateTime    @updatedAt
+
+  leaveCategory   leaveCategory? @relation(fields: [leaveCategoryId], references: [id])
+  leaveApplicant  staff?         @relation("leaveApplicant", fields: [staffId], references: [staffNo])
+  leaveSupervisor staff?         @relation("leaveSupervisor", fields: [supervisorId], references: [staffNo])
+  leaveReliever   staff?         @relation("leaveReliever", fields: [relieverId], references: [staffNo])
+  leaveApprover   staff?         @relation("leaveApprover", fields: [approverId], references: [staffNo])
+
+  @@map("hrs_leave")
+}
+
+model leaveBalance {
+  id          String  @id @default(uuid())
+  staffId     String?
+  leaveWeight Int     @default(0)
+  usedWeight  Int     @default(0)
+  flagUsed    Boolean @default(false) // flagUsed is True, When usedWeight = leaveWeight
+  status      Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  staff staff? @relation("balanceReceiver", fields: [staffId], references: [staffNo])
+
+  @@map("hrs_leave_balance")
+}
+
+model leaveCategory {
+  id            String         @id @default(uuid())
+  title         String? // Annual, Casual,Materinity
+  description   String?        @db.Text
+  status        Boolean        @default(true)
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  leaveWeights  leaveWeight[]
+  leaveRequests leaveRequest[]
+
+  @@map("hrs_leave_category")
+}
+
+model leaveExempt {
+  id            String    @id @default(uuid())
+  title         String? // Christmas Day, Boxing Day, Independence Day
+  period        DateTime? @db.Date
+  effectiveYear Int
+  status        Boolean   @default(true)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@map("hrs_leave_exempt")
+}
+
+model leaveConstant {
+  id                  String              @id @default(uuid())
+  title               String? // Extended Christmas holiday retraction, Christmas Holidays 
+  leaveWeight         Int                 @default(0)
+  action              leaveConstantAction
+  staffCategory       staffCategory
+  exclusionRemark     String?             @db.Text // Directorate of Health services, security Section 
+  exclusionIdentifier leaveIdentifier?
+  exclusionValues     Json?
+  effectiveYear       Int
+  status              Boolean             @default(true)
+  createdAt           DateTime            @default(now())
+  updatedAt           DateTime            @updatedAt
+
+  @@map("hrs_leave_constant")
+}
+
+model leaveWeight {
+  id              String        @id @default(uuid())
+  leaveCategoryId String?
+  staffCategory   staffCategory
+  jobIdentifiers  Json?
+  leaveWeight     Int           @default(0)
+  status          Boolean       @default(true)
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  leaveCategory leaveCategory? @relation(fields: [leaveCategoryId], references: [id])
+
+  @@map("hrs_leave_weight")
+}
+
+model leaveApprover {
+  id         String           @id @default(uuid())
+  approverId String?
+  identifier leaveIdentifier?
+  value      String?
+  values     Json?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  approver staff? @relation("groupLeaveApprover", fields: [approverId], references: [staffNo])
+
+  @@map("hrs_leave_approver")
+}
+
+model leaveDefer {
+  id            String      @id @default(uuid())
+  staffId       String?
+  supervisorId  String?
+  approverId    String?
+  reason        String?     @db.Text
+  leaveWeight   Int         @default(0)
+  usedWeight    Int         @default(0)
+  currentYear   Int
+  effectiveYear Int
+  status        leaveStatus @default(HEAD_PENDING)
+
+  approvedOn DateTime?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  staff      staff? @relation("deferer", fields: [staffId], references: [staffNo])
+  supervisor staff? @relation("deferSupervisor", fields: [supervisorId], references: [staffNo])
+  approver   staff? @relation("deferApprover", fields: [approverId], references: [staffNo])
+
+  @@map("hrs_leave_defer")
+}

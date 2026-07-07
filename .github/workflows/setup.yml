@@ -1,0 +1,30 @@
+name: mlk-backend-setup
+on: 
+  workflow_dispatch:
+jobs:
+  stage-backend:
+    env:
+      GITHUB_TOKEN: ${{ secrets.PRODUCT_DEPLOY_SECRET }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stage Backend
+        uses: appleboy/ssh-action@v0.1.2
+        with: 
+          host: ${{secrets.MLK_HOST}}
+          key: ${{secrets.MLK_KEY}}
+          username: ${{secrets.MLK_USER}}
+
+          script: |
+            cd /var/www/html/ums
+            rm -rf backend.bak
+            mv backend backend.bak
+            git clone https://dexitional:$GITHUB_TOKEN@github.com/dexitional/ums-core.git ./backend
+            cd backend
+            npm i --force
+            export NODE_OPTIONS=--max-old-space-size=4048
+            npm run build
+            NODE_ENV=production pm2 start npm --name core -- run start -- -p 5030
+            nginx -s reload
+            echo 'Backend Deployed!' 
+              
+            

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "vendor_id": "1",
+    "collector_name": "Calbank Limited",
+    "collector_address": "23 Independence Avenue | P.O. Box 14596, Accra",
+    "collector_phone": "0302680049",
+    "tech_name": "Edward Akoto Wosey",
+    "tech_phone": "0248418326",
+    "api_token": "V1StGXR8_Z5jdHi6B-myT",
+    "api_access": "NULL"
+  },
+  {
+    "id": "2",
+    "vendor_id": "1",
+    "collector_name": "AUCC_FIN",
+    "collector_address": "Adabraka",
+    "collector_phone": "NULL",
+    "tech_name": "NULL",
+    "tech_phone": "NULL",
+    "api_token": "NULL",
+    "api_access": "NULL"
+  }
+]

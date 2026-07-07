@@ -1,0 +1,317 @@
+[
+    {
+      "id": 1,
+      "title": "VICE PRESIDENT",
+      "type": "NON_ACADEMIC",
+      "rank_years": 4,
+      "upgradable": "1",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 32,
+      "title": "QUALITY ASSURANCE",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 3,
+      "title": "REGISTRAR",
+      "type": "NON_ACADEMIC",
+      "rank_years": 4,
+      "upgradable": "1",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 6,
+      "title": "SENIOR ICT ASSISTANT",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": "SS",
+      "active": "1"
+    },
+    {
+      "id": 4,
+      "title": "PRINCIPAL ADMINISTRATIVE ASSISTANT",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SS",
+      "active": "1"
+    },
+    {
+      "id": 5,
+      "title": "ICT ASSISTANT",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SS",
+      "active": "1"
+    },
+    {
+      "id": 7,
+      "title": "ADMINISTRATIVE ASSISTANT",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SS",
+      "active": "1"
+    },
+    {
+      "id": 8,
+      "title": "PROGRAMMES COORDINATOR",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "0",
+      "staff_group": "SS",
+      "active": "1"
+    },
+    {
+      "id": 9,
+      "title": "LECTURER",
+      "type": "ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 10,
+      "title": "ASSISTANT LECTURER",
+      "type": "ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 11,
+      "title": "SENIOR ASSISTANT REGISTRAR",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 12,
+      "title": "ASSISTANT ACCOUNT OFFICER",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 13,
+      "title": "SENIOR ACCOUNTING ASSISTANT",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 14,
+      "title": "SENIOR LECTURER",
+      "type": "ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 15,
+      "title": "ASSISTANT ACCOUNTANT",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 16,
+      "title": "ACADEMIC REGISTRAR",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 17,
+      "title": "LIBRARIAN",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 18,
+      "title": "IT OFFICER",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "1",
+      "staff_group": "SS",
+      "active": "1"
+    },
+    {
+      "id": 40,
+      "title": "Assistant Registrar ",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 20,
+      "title": "DIRECTOR OF FINANCE",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "0",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 21,
+      "title": "DEAN OF COMMUNICATION SCHOOL",
+      "type": "ACADEMIC",
+      "rank_years": null,
+      "upgradable": "0",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 22,
+      "title": "BUSINESS DEVELOPMENT AND ADMISSIONS MANAGER",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": "0",
+      "staff_group": "SM",
+      "active": "1"
+    },
+    {
+      "id": 23,
+      "title": "IT MANAGER",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 24,
+      "title": "DEAN OF BUSINESS SCHOOL",
+      "type": "ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 25,
+      "title": "DEAN OF LIBERAL-ARTS AND SOCIAL SCIENCES",
+      "type": "ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 26,
+      "title": "ADMISSIONS OFFICER",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 28,
+      "title": "HUMAN RESOURCE ",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 29,
+      "title": "ESTATE DEPARTMENT",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 31,
+      "title": "PRESIDENT",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 33,
+      "title": "DEAN ",
+      "type": "ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 35,
+      "title": "Security Guard",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 36,
+      "title": "Cleaner",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 37,
+      "title": "Cleaner",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 38,
+      "title": "DRIVER",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    },
+    {
+      "id": 39,
+      "title": "Snr. Administrative Assistant",
+      "type": "NON_ACADEMIC",
+      "rank_years": null,
+      "upgradable": null,
+      "staff_group": null,
+      "active": "1"
+    }
+  ]

@@ -1,0 +1,443 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["views"]
+  //output   = "../../node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+// Enums 
+
+enum deviceRule {
+  ALLOW
+  DENY
+}
+
+enum entryGroup {
+  GH
+  INT
+}
+
+enum completeType {
+  GRADUATION
+  RASTICATED
+  FORFEITED
+  DEAD
+  DISMISSED
+}
+
+enum Title {
+  MR
+  MRS
+  MISS
+  DR
+  DR_MRS
+  REV
+  REV_DR
+  REV_PROF
+  REV_MRS
+  PROF
+  PROF_MRS
+  PROF_EMERITUS
+}
+
+enum programCategory {
+  CP
+  DP
+  UG
+  PG
+}
+
+enum unitType {
+  ACADEMIC
+  NON_ACADEMIC
+}
+
+enum semesterNumbers {
+  SEM1 @map("1")
+  SEM2 @map("2")
+}
+
+enum courseType {
+  C
+  E
+  O
+}
+
+enum scoreType {
+  N
+  R
+}
+
+enum courseRemark {
+  FADED
+  ACTIVE
+}
+
+enum deferStatus {
+  PENDED
+  APPROVED
+  DECLINED
+  RESUMED
+}
+
+enum receiver {
+  APPLICANT
+  FRESHER
+  FINAL
+  STUDENT
+  UNDERGRAD
+  POSTGRAD
+  ALUMNI
+  STAFF
+  HOD
+  DEAN
+  ASSESSOR
+  DEBTOR
+}
+
+enum serviceType {
+  ATTESTATION
+  PROFICIENCY
+  TRANSCRIPT
+  INTRODUCTORY
+}
+
+enum pickMode {
+  PICKUP
+  INLAND
+  FOREIGN
+}
+
+enum transwiftStatus {
+  PENDED
+  PRINTED
+  COMPLETED
+}
+
+enum transwiftType {
+  SOFTCOPY
+  HARDCOPY
+}
+
+enum actionType {
+  APPEND
+  REPLACE
+}
+
+enum billGroup {
+  GH
+  INT
+}
+
+enum currency {
+  GHC
+  USD
+}
+
+enum chargeGroup {
+  FINE
+  FEES
+  GRADUATION
+  RESIT
+}
+
+enum visibility {
+  PUBLIC
+  LOCAL
+}
+
+enum payType {
+  BANK
+  MOMO
+}
+
+enum feeType {
+  NORMAL
+  SCHOLARSHIP
+}
+
+enum transactType {
+  CHARGE
+  BILL
+  PAYMENT
+}
+
+enum sessionMode {
+  M
+  W
+  E
+}
+
+enum stageType {
+  SINGLE
+  MULTIPLE
+}
+
+enum jobType {
+  ACADEMIC
+  NON_ACADEMIC
+}
+
+enum staffCategory {
+  JS
+  SS
+  SM
+}
+
+enum staffStatus {
+  TEMPORAL
+  PERMANENT
+  DEAD
+  RETIRED
+  ABSENCE
+  EXITED
+}
+
+enum nssStatus {
+  ACTIVE
+  RELEASED
+  COMPLETED
+}
+
+enum promoType {
+  APPOINTMENT
+  PROMOTION
+  UPGRADE
+}
+
+enum positionType {
+  APPOINTMENT
+  RENEWAL
+}
+
+enum scaleLevel {
+  L
+  H
+  AH
+}
+
+enum AccountType {
+  LINKEDIN
+  GOOGLE
+  CREDENTIAL
+  PIN
+}
+
+enum residentialStatus {
+  RESIDENTIAL
+  NON_RESIDENTIAL
+}
+
+enum studyMode {
+  M
+  W
+  E
+  A
+  f
+}
+
+enum EvsActionType {
+  STAGED
+  STARTED
+  ENDED
+}
+
+enum backlogType {
+  REGISTRATION
+  ASSESSMENT
+  DELETION
+}
+
+enum backlogInsertType {
+  SINGLE
+  BULK
+}
+
+enum respondentStatus {
+  HEAD_PENDING
+  HEAD_REQUIRES_UPDATE
+  DEAN_PENDING
+  DEAN_REQUIRES_UPDATE
+  PROVOST_PENDING
+  PROVOST_REQUIRES_UPDATE
+  AMP_FORWARDED
+  AMP_APPROVED
+  GRANTED
+  DECLINED
+  CANCELLED
+}
+
+enum leaveStatus {
+  HEAD_PENDING
+  HR_PENDING
+  GRANTED
+  ENDED
+  APPROVED
+  DECLINED
+  CANCELLED
+}
+
+enum leaveIdentifier {
+  STAFF
+  UNIT
+  JOB
+}
+
+enum leaveConstantAction {
+  ADD
+  DEDUCT
+}
+
+enum transferApplyType {
+  DHR
+  SELF
+}
+
+// GENERAL LOGGING
+
+model log {
+  id        String   @id @default(uuid())
+  action    String   @db.VarChar(255)
+  user      String?  @db.VarChar(255)
+  student   String?  @db.VarChar(255)
+  meta      Json
+  createdAt DateTime @default(now())
+}
+
+// AIS - ACADEMIC MANAGEMENT  MODELS
+
+model country {
+  id          String   @id @default(uuid())
+  code        Int?     @db.Int
+  shortName   String?  @db.VarChar(10)
+  longName    String   @db.VarChar(255)
+  nationality String?  @db.VarChar(300)
+  status      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  studentCountry     student[]     @relation("studentCountry")
+  studentNationality student[]     @relation("studentNationality")
+  profileNationality stepProfile[] @relation("profileNationality")
+  profileCountry     stepProfile[] @relation("profileCountry")
+  staff              staff[]
+  nss                nss[]
+}
+
+model region {
+  id        String   @id @default(uuid())
+  tag       String   @db.VarChar(50)
+  title     String   @db.VarChar(255)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  student     student[]
+  stepProfile stepProfile[]
+  staff       staff[]
+  nss         nss[]
+}
+
+model title {
+  id        String   @id @default(uuid())
+  tag       String   @db.VarChar(50)
+  label     String   @db.VarChar(50)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  student      student[]
+  stepProfile  stepProfile[]
+  stepGuardian stepGuardian[]
+  stepReferee  stepReferee[]
+  staff        staff[]
+  nss          nss[]
+  relative     relative[]
+}
+
+model relation {
+  id        String   @id @default(uuid())
+  title     String   @db.VarChar(255)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  stepGuardian stepGuardian[]
+  relative     relative[]
+}
+
+model marital {
+  id        String   @id @default(uuid())
+  title     String   @db.VarChar(255)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  staff   staff[]
+  student student[]
+  nss     nss[]
+  profile stepProfile[]
+}
+
+// 'SINGLE','MARRIED','SEPARATED','WIDOW','DIVORCED','NONE'
+
+model religion {
+  id        String   @id @default(uuid())
+  title     String   @db.VarChar(255)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  student     student[]
+  stepProfile stepProfile[]
+  staff       staff[]
+  nss         nss[]
+}
+
+model disability {
+  id        String   @id @default(uuid())
+  title     String   @db.VarChar(255)
+  status    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  student     student[]
+  stepProfile stepProfile[]
+}
+
+model unit {
+  id             String   @id @default(uuid())
+  code           String   @db.VarChar(50)
+  title          String   @db.VarChar(255)
+  type           unitType
+  levelNum       Int
+  level1Id       String?
+  level2Id       String?
+  level3Id       String?
+  location       String?
+  headStaffNo    String?
+  subheadStaffNo String?
+  status         Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  level1 unit? @relation("level1", fields: [level1Id], references: [id], onDelete: SetNull, onUpdate: Cascade)
+  level2 unit? @relation("level2", fields: [level2Id], references: [id], onDelete: SetNull, onUpdate: Cascade)
+  level3 unit? @relation("level3", fields: [level3Id], references: [id], onDelete: SetNull, onUpdate: Cascade)
+
+  levelI       unit[]         @relation("level1")
+  levelII      unit[]         @relation("level2")
+  levelIII     unit[]         @relation("level3")
+  program      program[]
+  structure    structure[]
+  bankacc      bankacc[]
+  positionInfo positionInfo[]
+  fromUnit     transfer[]     @relation("fromUnit")
+  toUnit       transfer[]     @relation("toUnit")
+  staff        staff[]
+  nss          nss[]
+  sheet        sheet[]
+}

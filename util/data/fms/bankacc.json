@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "mode_id": "1",
+    "unit_id": "NULL",
+    "tag": "AUCC COLLECTIONS",
+    "account_name": "AUCC COLLECTIONS",
+    "account_desc": "UNDERGRADUATE FEES ",
+    "bank_name": "CALBANK",
+    "bank_account": "1400001216831",
+    "bank_branch": "ADABRAKAH ",
+    "bank_contact": "277675089",
+    "status": "1"
+  },
+  {
+    "id": "2",
+    "mode_id": "1",
+    "unit_id": "NULL",
+    "tag": "AUCC COLLECTION -USD FX",
+    "account_name": "AUCC COLLECTION -USD FX",
+    "account_desc": " INTERNATIONAL STUDENTS FEES, FOREIGN ADMISSION VOUCHER",
+    "bank_name": "CALBANK",
+    "bank_account": "1400000791597",
+    "bank_branch": "ADABRAKAH",
+    "bank_contact": "277675089",
+    "status": "1"
+  },
+  {
+    "id": "3",
+    "mode_id": "1",
+    "unit_id": "NULL",
+    "tag": "PROJECT WORK",
+    "account_name": "PROJECT WORK",
+    "account_desc": "GRADUATE SCHOOL FEES, ADMISSION VOUCHER (LOCAL), TRANSCRIPT, ATTESTATION LETTER, RENTAL OF PREMISES, OTHER SERVICES ",
+    "bank_name": "CALBANK",
+    "bank_account": "1400001477554",
+    "bank_branch": "ADABRAKAH ",
+    "bank_contact": "277675089",
+    "status": "1"
+  },
+  {
+    "id": "4",
+    "mode_id": "1",
+    "unit_id": "NULL",
+    "tag": "SRC ACCOUNT ",
+    "account_name": "SRC",
+    "account_desc": "SRC ACCOUNT ",
+    "bank_name": "CALBANK",
+    "bank_account": "1400001575955",
+    "bank_branch": "ADABRAKAH",
+    "bank_contact": "277675089",
+    "status": "1"
+  },
+  {
+    "id": "5",
+    "mode_id": "1",
+    "unit_id": "NULL",
+    "tag": "AUCC-FOUNDATION",
+    "account_name": "AUCC-FOUNDATION",
+    "account_desc": "SHORT COURSES",
+    "bank_name": "CALBANK",
+    "bank_account": "1400002876789",
+    "bank_branch": "ADABRAKAH",
+    "bank_contact": "277675089",
+    "status": "1"
+  },
+  {
+    "id": "6",
+    "mode_id": "1",
+    "unit_id": "NULL",
+    "tag": "AUCC-REMEDIAL CLASSES",
+    "account_name": "AUCC-REMEDIAL CLASSES",
+    "account_desc": " REMEDIAL SCHOOL ACCOUNT ",
+    "bank_name": "CALBANK",
+    "bank_account": "1400001395547",
+    "bank_branch": "ADABRAKAH",
+    "bank_contact": "277675089",
+    "status": "1"
+  }
+]

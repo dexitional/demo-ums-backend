@@ -1,0 +1,214 @@
+// FMS - FINANCE MANAGEMENT  MODELS
+
+model bankacc {
+  id                 String   @id @default(uuid())
+  unitId             String
+  tag                String   @db.VarChar(255)
+  accountName        String   @db.VarChar(450)
+  accountDescription String   @db.VarChar(450)
+  bankName           String   @db.VarChar(350)
+  bankAccount        String   @db.VarChar(30)
+  bankBranch         String   @db.VarChar(255)
+  bankContact        String   @db.VarChar(20)
+  status             Boolean  @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  unit        unit?         @relation(fields: [unitId], references: [id])
+  bill        bill[]
+  transaction transaction[]
+  transtype   transtype[]
+
+  @@map("fms_bankacc")
+}
+
+model bill {
+  id                String             @id @default(uuid())
+  sessionId         String
+  bankaccId         String?
+  programId         String?
+  includeStudentIds Json?
+  excludeStudentIds Json?
+  mainGroupCode     String             @db.VarChar(4)
+  discountGroupCode String?            @db.VarChar(4)
+  narrative         String             @db.VarChar(255)
+  type              billGroup          @default(GH)
+  residentialStatus residentialStatus? @default(RESIDENTIAL)
+  currency          currency           @default(GHC)
+  amount            Float
+  discount          Float?
+  quota             Float?
+  posted            Boolean            @default(false)
+  status            Boolean            @default(true)
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+
+  session session? @relation(fields: [sessionId], references: [id])
+  bankacc bankacc? @relation(fields: [bankaccId], references: [id])
+  program program? @relation(fields: [programId], references: [id])
+
+  studentAccount studentAccount[]
+  fresher        fresher[]
+  activityBill   activityBill[]
+
+  @@map("fms_bill")
+}
+
+model activityBill {
+  id        String   @id @default(uuid())
+  billId    String?
+  userId    Int?
+  amount    Float?
+  discount  Float?
+  receivers Json?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  bill bill? @relation(fields: [billId], references: [id])
+  user user? @relation(fields: [userId], references: [id])
+
+  @@map("fms_activity_bill")
+}
+
+model charge {
+  id        String       @id @default(uuid())
+  studentId String?
+  title     String
+  type      chargeGroup?
+  currency  currency     @default(GHC)
+  amount    Float
+  posted    Boolean      @default(true)
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+
+  student        student?         @relation(fields: [studentId], references: [id])
+  studentAccount studentAccount[]
+
+  @@map("fms_charge")
+}
+
+model collector {
+  id              String   @id @default(uuid())
+  name            String   @db.VarChar(255)
+  address         String?  @db.Text
+  phone           Int?
+  technicianName  String?  @db.VarChar(450)
+  technicianPhone Int?
+  apiToken        String?  @db.VarChar(350)
+  apiEnabled      Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  transaction transaction[]
+
+  @@map("fms_collector")
+}
+
+model transtype {
+  id          Int        @id @default(autoincrement())
+  bankaccId   String?
+  bankaccMeta Json?
+  title       String     @db.VarChar(255)
+  visibility  visibility @default(PUBLIC)
+  amountInGhc Float?
+  amountInUsd Float?
+  remark      String?    @db.VarChar(350)
+  status      Boolean    @default(true)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  bankacc bankacc? @relation(fields: [bankaccId], references: [id])
+
+  transaction transaction[]
+
+  @@map("fms_transtype")
+}
+
+model transaction {
+  id          String   @id @default(uuid())
+  collectorId String?
+  transtypeId Int?
+  bankaccId   String?
+  studentId   String?
+  reference   String?
+  transtag    String
+  payType     payType? @default(BANK)
+  feeType     feeType? @default(NORMAL)
+  currency    currency @default(GHC)
+  amount      Float
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  collector collector? @relation(fields: [collectorId], references: [id])
+  bankacc   bankacc?   @relation(fields: [bankaccId], references: [id])
+  student   student?   @relation(fields: [studentId], references: [id])
+  transtype transtype? @relation(fields: [transtypeId], references: [id])
+
+  studentAccount         studentAccount[]
+  activityFinanceVoucher activityFinanceVoucher[]
+  transwift              transwift[]
+
+  @@index([transtag])
+  @@index([studentId])
+  @@index([reference])
+  @@map("fms_transaction")
+}
+
+model studentAccount {
+  id         String        @id @default(uuid())
+  studentId  String?
+  transactId String?
+  sessionId  String?
+  chargeId   String?
+  billId     String?
+  type       transactType?
+  narrative  String        @db.VarChar(255)
+  currency   currency      @default(GHC)
+  amount     Float
+  status     Boolean       @default(true)
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+
+  student     student?     @relation(fields: [studentId], references: [id])
+  transaction transaction? @relation(fields: [transactId], references: [id])
+  session     session?     @relation(fields: [sessionId], references: [id])
+  charge      charge?      @relation(fields: [chargeId], references: [id])
+  bill        bill?        @relation(fields: [billId], references: [id])
+
+  @@index([billId])
+  @@index([chargeId])
+  @@index([narrative])
+  @@index([studentId])
+  @@index([sessionId])
+  @@map("fms_studaccount")
+}
+
+model activityFinanceApi {
+  id        String   @id @default(uuid())
+  ip        String?  @db.VarChar(50)
+  title     String   @db.VarChar(255)
+  meta      Json?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("fms_activity_api")
+}
+
+model activityFinanceVoucher {
+  id          String   @id @default(uuid())
+  transactId  String?
+  admissionId String?
+  serial      String?
+  pin         String?  @db.VarChar(8)
+  buyerName   String   @db.VarChar(255)
+  buyerPhone  String   @db.VarChar(15)
+  smsCode     Int?
+  generated   Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  admission   admission?   @relation(fields: [admissionId], references: [id])
+  transaction transaction? @relation(fields: [transactId], references: [id])
+
+  @@map("fms_activity_voucher")
+}

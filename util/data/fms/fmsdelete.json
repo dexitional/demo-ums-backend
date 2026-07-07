@@ -1,0 +1,1325 @@
+[
+    {
+        "id": "2",
+        "uid": "NULL",
+        "tid": "1189",
+        "meta": {"id":1189,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200102","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2365,"reference":"Cash Deposit AUUG09200102-02-DELIGHT SETOR ENY ONAM-2365-1","transtag":"TT213056WGT9_BNK","transdate":"2021-11-01"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "3",
+        "uid": "NULL",
+        "tid": "1190",
+        "meta": {"id":1190,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200097","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUUG09200097-02-GIDISU ISRAEL-1000 -1","transtag":"TT21305FN6Z5_BNK","transdate":"2021-11-01"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "4",
+        "uid": "NULL",
+        "tid": "1192",
+        "meta": {"id":1192,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200046","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":900,"reference":"Cash Deposit AUUG09200046-02-OCLOO - EGO CHRIST OPHER SEYRAM-900-1","transtag":"TT213055VTGW_BNK","transdate":"2021-11-01"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "5",
+        "uid": "NULL",
+        "tid": "1193",
+        "meta": {"id":1193,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01200034","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2000,"reference":"Cash Deposit AUUG01200034-02-ANNOH JENNIFER-200 0-1","transtag":"TT21305MT5W3_BNK","transdate":"2021-11-01"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "6",
+        "uid": "NULL",
+        "tid": "1194",
+        "meta": {"id":1194,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUDM09200008","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUDM09200008-02-ADDO NADIA-1000-1","transtag":"TT21305RPZY0_BNK","transdate":"2021-11-01"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "7",
+        "uid": "NULL",
+        "tid": "1197",
+        "meta": {"id":1197,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200027","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1500,"reference":"Cash Deposit AUUG09200027-02-DANQUAH SHIRLEY G YAIMA-1500-1","transtag":"TT21306RK9QG_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "8",
+        "uid": "NULL",
+        "tid": "1199",
+        "meta": {"id":1199,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUBS09201007","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":4500,"reference":"Cash Deposit AUBS09201007-02-ONDO ANGONO DIANA JULIET ABUNGONO-4500-1","transtag":"TT213067PFF8_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "9",
+        "uid": "NULL",
+        "tid": "1200",
+        "meta": {"id":1200,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUBS09191034","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":400,"reference":"Cash Deposit AUBS09191034-02-SAM-AIDOO ERIC-400 -1","transtag":"TT21306MF99D_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "10",
+        "uid": "NULL",
+        "tid": "1201",
+        "meta": {"id":1201,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200086","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUUG09200086-02-SASU ERNEST EFFAH -1000-1","transtag":"TT21306TNVNL_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "11",
+        "uid": "NULL",
+        "tid": "1203",
+        "meta": {"id":1203,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUBS01191002","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":650,"reference":"Cash Deposit AUBS01191002-02-ADDY ANSLY NAA O KAILEY-650-1","transtag":"TT21306NGHZW_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "12",
+        "uid": "NULL",
+        "tid": "1204",
+        "meta": {"id":1204,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09190088","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1100,"reference":"Cash Deposit AUUG09190088-02-ASARE EMMANUEL KW AME-1100-1","transtag":"TT21306WTBWH_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "13",
+        "uid": "NULL",
+        "tid": "1205",
+        "meta": {"id":1205,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01200021","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1100,"reference":"Cash Deposit AUUG01200021-02-AMPOFO AKOMANING-1 100-1","transtag":"TT21306H35BK_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "14",
+        "uid": "NULL",
+        "tid": "1206",
+        "meta": {"id":1206,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01200014","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1300,"reference":"Cash Deposit AUUG01200014-02-RASHAD SAMIRA-1300 -1","transtag":"TT21306WKL88_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "15",
+        "uid": "NULL",
+        "tid": "1207",
+        "meta": {"id":1207,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200051","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2300,"reference":"CalPay Collection AUUG09200051 - ACADEMIC FEES - ZEPO U GODFRED - 2300 - FOR AUCC UNDER","transtag":"FT213060V6T8_BNK","transdate":"2021-11-02"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "16",
+        "uid": "NULL",
+        "tid": "1209",
+        "meta": {"id":1209,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUBS09181066","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUBS09181066-02-MINGLE DIANA-1000- 1","transtag":"TT21307L5SQD_BNK","transdate":"2021-11-03"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "17",
+        "uid": "NULL",
+        "tid": "1210",
+        "meta": {"id":1210,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200106","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2365,"reference":"Cash Deposit AUUG09200106-02-FATIMATU SULEIMAN- 2365-1","transtag":"TT21307RFFDK_BNK","transdate":"2021-11-03"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "18",
+        "uid": "NULL",
+        "tid": "1212",
+        "meta": {"id":1212,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200151","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1900,"reference":"Cash Deposit AUUG09200151-02-BAMBA DOUNIA LIND A-1900-1","transtag":"TT21307C17MN_BNK","transdate":"2021-11-03"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "19",
+        "uid": "NULL",
+        "tid": "1214",
+        "meta": {"id":1214,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01200056","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"Cash Deposit AUUG01200056-02-ACKAH PATIENCE-500 -1","transtag":"TT21307CYVW8_BNK","transdate":"2021-11-03"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "20",
+        "uid": "NULL",
+        "tid": "1215",
+        "meta": {"id":1215,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09190059","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1500,"reference":"Cash Deposit AUUG09190059-02-DADZIE SAMUEL NAN A YAW SMITH-1500-1","transtag":"TT213075R87L_BNK","transdate":"2021-11-03"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "21",
+        "uid": "NULL",
+        "tid": "1216",
+        "meta": {"id":1216,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUDM09200009","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":800,"reference":"Cash Deposit AUDM09200009-02-OFOSU DANIEL KWEK U-800-1","transtag":"TT213071VX36_BNK","transdate":"2021-11-03"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "22",
+        "uid": "NULL",
+        "tid": "1217",
+        "meta": {"id":1217,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200128","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2000,"reference":"Cash Deposit AUUG09200128-02-HOWE JOSEPH COLE- 1400001216831 110450 Balance at Period Start 2000-1","transtag":"TT21307FGP1D_BNK","transdate":"2021-11-03"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "23",
+        "uid": "NULL",
+        "tid": "1218",
+        "meta": {"id":1218,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUMC09202029","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUMC09202029-04-ANABILA BENJAMIN-1 000-1","transtag":"TT213089TRRT_BNK","transdate":"2021-11-04"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "24",
+        "uid": "NULL",
+        "tid": "1219",
+        "meta": {"id":1219,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09180121","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1800,"reference":"Cash Deposit AUUG09180121-02-MENSAH FRANCISCA-1 800-1","transtag":"TT21308FH3JZ_BNK","transdate":"2021-11-04"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "25",
+        "uid": "NULL",
+        "tid": "1220",
+        "meta": {"id":1220,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09180176","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2134,"reference":"Cash Deposit AUUG09180176-02-AKADJAH AGNES DZI FA-2134-1","transtag":"TT21308TVCXD_BNK","transdate":"2021-11-04"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "26",
+        "uid": "NULL",
+        "tid": "1221",
+        "meta": {"id":1221,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09180189","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":942,"reference":"Cash Deposit AUUG09180189-02-ATTITSOGBI SHERRIE -942-1","transtag":"TT21308RLGGT_BNK","transdate":"2021-11-04"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "27",
+        "uid": "NULL",
+        "tid": "1223",
+        "meta": {"id":1223,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200204","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":4500,"reference":"Cash Deposit AUUG09200204-02-SEBIOLA ESTHER OL UWATOSIN-4500-1","transtag":"TT2130804DKC_BNK","transdate":"2021-11-04"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "28",
+        "uid": "NULL",
+        "tid": "1224",
+        "meta": {"id":1224,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09190086","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1500,"reference":"Cash Deposit AUUG09190086-02-BOYE ALEX TIKESIE -1500-1","transtag":"TT213082ZQJ2_BNK","transdate":"2021-11-04"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "29",
+        "uid": "NULL",
+        "tid": "1225",
+        "meta": {"id":1225,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01200056","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":250,"reference":"Cash Deposit AUUG01200056-02-ACKAH PATIENCE-250 -1","transtag":"TT21308BV9LV_BNK","transdate":"2021-11-04"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "30",
+        "uid": "NULL",
+        "tid": "1294",
+        "meta": {"id":1294,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01180093","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"CalPay Collection AUUG01180093 - ACADEMIC FEES - AGBE NYEGAH-KATTAH MABEL NUTIFAFA - 100","transtag":"FT21320X1ZN7_BNK","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "31",
+        "uid": "NULL",
+        "tid": "1295",
+        "meta": {"id":1295,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09190146","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1034,"reference":"Cash Deposit AUUG09190146-02-HAMMOND DORCAS NA A AYELEY-1034-1","transtag":"TT21320HX6LY_BNK","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "32",
+        "uid": "NULL",
+        "tid": "1296",
+        "meta": {"id":1296,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09190048","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUUG09190048-02-OWUSU WENDY YAA S ERWAA-1000-1","transtag":"TT2132048SGN_BNK","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "33",
+        "uid": "NULL",
+        "tid": "1297",
+        "meta": {"id":1297,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUBS01191015","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1400,"reference":"Cash Deposit AUBS01191015-02-NYAME BRIDGET-1400 -1","transtag":"TT21320BXN0J_BNK","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "34",
+        "uid": "NULL",
+        "tid": "1298",
+        "meta": {"id":1298,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUBS09200001","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1065,"reference":"Cash Deposit AUBS09200001-02-TANOAH NANA ABENA OHEMAAH-1065-1","transtag":"TT21320MMWQL_BNK","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "35",
+        "uid": "NULL",
+        "tid": "1299",
+        "meta": {"id":1299,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUBS09201040","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":400,"reference":"Cash Deposit AUBS09201040-02-TETTEH IVY-400-1","transtag":"TT21320ZS3JN_BNK","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "36",
+        "uid": "NULL",
+        "tid": "1300",
+        "meta": {"id":1300,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUPM09202007","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2000,"reference":"Cash Deposit AUPM09202007-04-AZAGLO AMOS OPOKU -2000-1","transtag":"TT213206B67C_BNK","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "37",
+        "uid": "NULL",
+        "tid": "1301",
+        "meta": {"id":1301,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01190066","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2000,"reference":"Cash Deposit AUUG01190066-02-ATIOTO DAVE SELAS SY-2000-1","transtag":"TT21320LD85B_BNK","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "38",
+        "uid": "NULL",
+        "tid": "1302",
+        "meta": {"id":1302,"collector_id":null,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200197","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2200,"reference":"Cash Deposit AUUG09200197-02-FOLLY JUDITH-2200- 1","transtag":"TT213208XB4Z_ACB","transdate":"2021-11-16"},
+        "created_at": "2022-01-07 13:40:01"
+    },
+    {
+        "id": "39",
+        "uid": "NULL",
+        "tid": "2029",
+        "meta": {"id":2029,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUUG09190014 ","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"AUUG09190014  - ACADEMIC FEES - SCHELLHAUS SISL  PREMPEH - 500 -  FOR AUCC UNDERGRADUATE FFES - GHS","transtag":"AUCC-10194982","transdate":"2022-01-13"},
+        "created_at": "2022-01-13 17:00:01"
+    },
+    {
+        "id": "40",
+        "uid": "NULL",
+        "tid": "2387",
+        "meta": {"id":2387,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01200025","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC_FIN","transdate":"2021-11-29"},
+        "created_at": "2022-01-31 11:01:25"
+    },
+    {
+        "id": "41",
+        "uid": "NULL",
+        "tid": "2395",
+        "meta": {"id":2395,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09190045","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":650,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC_FIN","transdate":"2021-11-29"},
+        "created_at": "2022-01-31 11:31:26"
+    },
+    {
+        "id": "42",
+        "uid": "NULL",
+        "tid": "2408",
+        "meta": {"id":2408,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUUG01190078","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC_FIN","transdate":"2021-11-29"},
+        "created_at": "2022-01-31 12:31:27"
+    },
+    {
+        "id": "43",
+        "uid": "NULL",
+        "tid": "2590",
+        "meta": {"id":2590,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUBS01191012","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":500,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC_FIN","transdate":"2022-01-10"},
+        "created_at": "2022-02-02 16:15:00"
+    },
+    {
+        "id": "44",
+        "uid": "NULL",
+        "tid": "2834",
+        "meta": {"id":2834,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":null,"paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit YATA LARBIL","transtag":"TT212633BMH4_RRW","transdate":"2021-09-20"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "45",
+        "uid": "NULL",
+        "tid": "2910",
+        "meta": {"id":2910,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":null,"paytype":null,"payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit ABIGAIL AFRAKOMAH NKETIA","transtag":"TT212736LTBL_RRW","transdate":"2021-09-30"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "46",
+        "uid": "NULL",
+        "tid": "2926",
+        "meta": {"id":2926,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00087","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"Cash Deposit AUCC/0921/00087/UNDERGRADUATE FEES /CHARITY ASHLEY/500/1","transtag":"TT21277PKJX2_BNK","transdate":"2021-10-04"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "47",
+        "uid": "NULL",
+        "tid": "2927",
+        "meta": {"id":2927,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00099","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":520,"reference":"Cash Deposit AUCC/0921/00099/UNDERGRADUATE FEES /FRANCIS BETHUEL DONKOR/520/1","transtag":"TT2127764FWP_BNK","transdate":"2021-10-04"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "48",
+        "uid": "NULL",
+        "tid": "2928",
+        "meta": {"id":2928,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00246","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":900,"reference":"Cash Deposit AUCC/0921/00246/UNDERGRADUATE FEES /SHINE DAGADZI/900/1","transtag":"TT21277RRL3Y_BNK","transdate":"2021-10-04"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "49",
+        "uid": "NULL",
+        "tid": "2929",
+        "meta": {"id":2929,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00058","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUCC/0921/00058/UNDERGRADUATE FEES /ADU SIMON KOFI/1000/1","transtag":"TT21277DTQ7Q_BNK","transdate":"2021-10-04"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "50",
+        "uid": "NULL",
+        "tid": "2935",
+        "meta": {"id":2935,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00289","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":320,"reference":"Cash Deposit AUCC/0921/00289/UNDERGRADUATE FEES /MIRIAM HASSAN/320/1","transtag":"TT21278SCTKS_BNK","transdate":"2021-10-05"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "51",
+        "uid": "NULL",
+        "tid": "2940",
+        "meta": {"id":2940,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00125","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUCC/0921/00125/UNDERGRADUATE FEES /PERPETUAL AMOASI/1000/1","transtag":"TT21279KZKSC_BNK","transdate":"2021-10-06"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "52",
+        "uid": "NULL",
+        "tid": "2956",
+        "meta": {"id":2956,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00158","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"Cash Deposit AUCC/0921/00158/UNDERGRADUATE FEES /SUSSANE MANASSIAM/500/1","transtag":"TT21281XSDQ6_BNK","transdate":"2021-10-08"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "53",
+        "uid": "NULL",
+        "tid": "2957",
+        "meta": {"id":2957,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00159","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"Cash Deposit AUCC/0921/00159/UNDERGRADUATE FEES /MAVIS OHEMENG GYIMAE/500/1","transtag":"TT2128162P3Z_BNK","transdate":"2021-10-08"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "54",
+        "uid": "NULL",
+        "tid": "2968",
+        "meta": {"id":2968,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00153","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":300,"reference":"Cash Deposit AUCC/0921/00153/UNDERGRADUATE FEES /RUTH BOSUMPRAH/300/1","transtag":"TT212854LB4X_BNK","transdate":"2021-10-12"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "55",
+        "uid": "NULL",
+        "tid": "2973",
+        "meta": {"id":2973,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00621","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"Cash Deposit AUCC/0921/00621/UNDERGRADUATE FEES /GRACE MAWUTOR AVETTEY/500/1","transtag":"TT21286WXQMT_BNK","transdate":"2021-10-13"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "56",
+        "uid": "NULL",
+        "tid": "2979",
+        "meta": {"id":2979,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00085","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":20,"reference":"Cash Deposit AUCC/0921/00085/UNDERGRADUATE FEES /ABIGAIL ASARE/20/1","transtag":"TT212882XQ6M_BNK","transdate":"2021-10-15"},
+        "created_at": "2022-02-12 20:48:00"
+    },
+    {
+        "id": "57",
+        "uid": "NULL",
+        "tid": "3076",
+        "meta": {"id":3076,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUBS01191027","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUBS01191027 02 MOHAMMED NASIR-DEEN ALIDU 1000 1","transtag":"AUCC-10257482","transdate":"2022-02-16"},
+        "created_at": "2022-02-16 12:33:00"
+    },
+    {
+        "id": "58",
+        "uid": "NULL",
+        "tid": "3736",
+        "meta": {"id":3736,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:34:06"
+    },
+    {
+        "id": "59",
+        "uid": "NULL",
+        "tid": "3737",
+        "meta": {"id":3737,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:35:18"
+    },
+    {
+        "id": "60",
+        "uid": "NULL",
+        "tid": "3738",
+        "meta": {"id":3738,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:36:04"
+    },
+    {
+        "id": "61",
+        "uid": "NULL",
+        "tid": "3739",
+        "meta": {"id":3739,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:36:52"
+    },
+    {
+        "id": "62",
+        "uid": "NULL",
+        "tid": "3740",
+        "meta": {"id":3740,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:37:58"
+    },
+    {
+        "id": "63",
+        "uid": "NULL",
+        "tid": "3741",
+        "meta": {"id":3741,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:38:50"
+    },
+    {
+        "id": "64",
+        "uid": "NULL",
+        "tid": "3742",
+        "meta": {"id":3742,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:39:46"
+    },
+    {
+        "id": "65",
+        "uid": "NULL",
+        "tid": "3743",
+        "meta": {"id":3743,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:40:44"
+    },
+    {
+        "id": "66",
+        "uid": "NULL",
+        "tid": "3744",
+        "meta": {"id":3744,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:41:44"
+    },
+    {
+        "id": "67",
+        "uid": "NULL",
+        "tid": "3745",
+        "meta": {"id":3745,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:42:39"
+    },
+    {
+        "id": "68",
+        "uid": "NULL",
+        "tid": "3746",
+        "meta": {"id":3746,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:43:36"
+    },
+    {
+        "id": "69",
+        "uid": "NULL",
+        "tid": "3747",
+        "meta": {"id":3747,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:44:25"
+    },
+    {
+        "id": "70",
+        "uid": "NULL",
+        "tid": "3748",
+        "meta": {"id":3748,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:45:22"
+    },
+    {
+        "id": "71",
+        "uid": "NULL",
+        "tid": "3749",
+        "meta": {"id":3749,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:46:27"
+    },
+    {
+        "id": "72",
+        "uid": "NULL",
+        "tid": "3750",
+        "meta": {"id":3750,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:47:25"
+    },
+    {
+        "id": "73",
+        "uid": "NULL",
+        "tid": "3751",
+        "meta": {"id":3751,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:47:59"
+    },
+    {
+        "id": "74",
+        "uid": "NULL",
+        "tid": "3752",
+        "meta": {"id":3752,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:49:02"
+    },
+    {
+        "id": "75",
+        "uid": "NULL",
+        "tid": "3753",
+        "meta": {"id":3753,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:50:09"
+    },
+    {
+        "id": "76",
+        "uid": "NULL",
+        "tid": "3754",
+        "meta": {"id":3754,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:51:14"
+    },
+    {
+        "id": "77",
+        "uid": "NULL",
+        "tid": "3755",
+        "meta": {"id":3755,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:51:54"
+    },
+    {
+        "id": "78",
+        "uid": "NULL",
+        "tid": "3756",
+        "meta": {"id":3756,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:52:57"
+    },
+    {
+        "id": "79",
+        "uid": "NULL",
+        "tid": "3757",
+        "meta": {"id":3757,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:54:08"
+    },
+    {
+        "id": "80",
+        "uid": "NULL",
+        "tid": "3758",
+        "meta": {"id":3758,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:55:04"
+    },
+    {
+        "id": "81",
+        "uid": "NULL",
+        "tid": "3759",
+        "meta": {"id":3759,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:55:53"
+    },
+    {
+        "id": "82",
+        "uid": "NULL",
+        "tid": "3760",
+        "meta": {"id":3760,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:57:08"
+    },
+    {
+        "id": "83",
+        "uid": "NULL",
+        "tid": "3761",
+        "meta": {"id":3761,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:58:29"
+    },
+    {
+        "id": "84",
+        "uid": "NULL",
+        "tid": "3762",
+        "meta": {"id":3762,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 15:59:14"
+    },
+    {
+        "id": "85",
+        "uid": "NULL",
+        "tid": "3763",
+        "meta": {"id":3763,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-04 16:00:14"
+    },
+    {
+        "id": "86",
+        "uid": "NULL",
+        "tid": "3776",
+        "meta": {"id":3776,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2022-04-05 13:03:01"
+    },
+    {
+        "id": "87",
+        "uid": "NULL",
+        "tid": "5005",
+        "meta": {"id":5005,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00194","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2030,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC/0921/00194","transdate":"2022-07-04"},
+        "created_at": "2022-07-05 13:03:00"
+    },
+    {
+        "id": "88",
+        "uid": "NULL",
+        "tid": "5066",
+        "meta": {"id":5066,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00194","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2030,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC/0921/00194","transdate":"2022-07-04"},
+        "created_at": "2022-07-08 16:03:00"
+    },
+    {
+        "id": "89",
+        "uid": "NULL",
+        "tid": "5067",
+        "meta": {"id":5067,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00194","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2030,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC/0921/00194","transdate":"2022-07-04"},
+        "created_at": "2022-07-08 16:03:00"
+    },
+    {
+        "id": "90",
+        "uid": "NULL",
+        "tid": "5068",
+        "meta": {"id":5068,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00194","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2030,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC/0921/00194","transdate":"2022-07-04"},
+        "created_at": "2022-07-08 16:03:00"
+    },
+    {
+        "id": "91",
+        "uid": "NULL",
+        "tid": "5366",
+        "meta": {"id":5366,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"21091063","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2020,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUBS01221003","transdate":"2022-06-15"},
+        "created_at": "2022-08-26 10:33:00"
+    },
+    {
+        "id": "92",
+        "uid": "NULL",
+        "tid": "6760",
+        "meta": {"id":6760,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09190009","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":500,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUUG09190009","transdate":"2022-04-30"},
+        "created_at": "2022-11-11 17:33:00"
+    },
+    {
+        "id": "93",
+        "uid": "NULL",
+        "tid": "7161",
+        "meta": {"id":7161,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUCC/0921/00012","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":265,"reference":"AUUG09210035 02 YATA LARBIL 265 1","transtag":"AUCC-10620910","transdate":"2022-11-29"},
+        "created_at": "2022-11-29 12:03:00"
+    },
+    {
+        "id": "94",
+        "uid": "NULL",
+        "tid": "7348",
+        "meta": {"id":7348,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUUG09200168","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":400,"reference":"AUUG09200168 - ACADEMIC FEES - ADJEI PROSPER  ABLORDE - 400 -  FOR AUCC FFES PAYMENT - GHS","transtag":"AUCC-10625495","transdate":"2022-12-01"},
+        "created_at": "2022-12-01 23:03:00"
+    },
+    {
+        "id": "95",
+        "uid": "NULL",
+        "tid": "7355",
+        "meta": {"id":7355,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUUG09200168","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":200,"reference":"AUUG09200168 - ACADEMIC FEES - ADJEI PROSPER  ABLORDE - 200 -  FOR AUCC FFES PAYMENT - GHS","transtag":"AUCC-10625567","transdate":"2022-12-02"},
+        "created_at": "2022-12-02 20:33:00"
+    },
+    {
+        "id": "96",
+        "uid": "NULL",
+        "tid": "7580",
+        "meta": {"id":7580,"collector_id":2,"transtype_id":2,"bankacc_id":2,"refno":"21091300","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"USD","amount":210,"reference":"UNERGRADUATE SCHOOL FEES PAYMENT","transtag":"TT/22340/89HNQ","transdate":"2022-12-06"},
+        "created_at": "2022-12-14 10:33:01"
+    },
+    {
+        "id": "97",
+        "uid": "NULL",
+        "tid": "7774",
+        "meta": {"id":7774,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010057","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2665,"reference":"23010057 02 NAYAN DORA 2665 1","transtag":"AUCC-10691097","transdate":"2023-01-17"},
+        "created_at": "2023-01-17 11:48:01"
+    },
+    {
+        "id": "98",
+        "uid": "NULL",
+        "tid": "7807",
+        "meta": {"id":7807,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"22090002","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1500,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUBS09221056","transdate":"2022-10-17"},
+        "created_at": "2023-01-20 13:18:00"
+    },
+    {
+        "id": "99",
+        "uid": "NULL",
+        "tid": "7808",
+        "meta": {"id":7808,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"22090002","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1500,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUBS09221056","transdate":"2022-10-17"},
+        "created_at": "2023-01-20 13:18:00"
+    },
+    {
+        "id": "100",
+        "uid": "NULL",
+        "tid": "7846",
+        "meta": {"id":7846,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010064","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1860,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"23010064","transdate":"2023-01-10"},
+        "created_at": "2023-01-23 13:33:00"
+    },
+    {
+        "id": "101",
+        "uid": "NULL",
+        "tid": "7877",
+        "meta": {"id":7877,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010060","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1500,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"23010060","transdate":"2023-01-16"},
+        "created_at": "2023-01-24 14:33:00"
+    },
+    {
+        "id": "102",
+        "uid": "NULL",
+        "tid": "8325",
+        "meta": {"id":8325,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00329","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":4000,"reference":"UNERGRADUATE SCHOOL FEES PAYMENT","transtag":"AUCC/0921/00329","transdate":"2023-02-14"},
+        "created_at": "2023-02-14 16:33:00"
+    },
+    {
+        "id": "103",
+        "uid": "NULL",
+        "tid": "8349",
+        "meta": {"id":8349,"collector_id":2,"transtype_id":2,"bankacc_id":3,"refno":"23010709","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":9000,"reference":"TT2304485S1T","transtag":"TT2304485S1T","transdate":"2023-02-13"},
+        "created_at": "2023-02-15 14:33:01"
+    },
+    {
+        "id": "104",
+        "uid": "NULL",
+        "tid": "8351",
+        "meta": {"id":8351,"collector_id":2,"transtype_id":2,"bankacc_id":3,"refno":"23010709","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":9000,"reference":"TT2304485S1T","transtag":"TT2304485S1T","transdate":"2023-02-13"},
+        "created_at": "2023-02-15 14:48:00"
+    },
+    {
+        "id": "105",
+        "uid": "NULL",
+        "tid": "8627",
+        "meta": {"id":8627,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"21091236","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1565,"reference":"UNERGRADUATE SCHOOL FEES PAYMENT","transtag":"MTN2398F3B8D4D8F0B","transdate":"2023-03-02"},
+        "created_at": "2023-03-07 16:18:00"
+    },
+    {
+        "id": "106",
+        "uid": "NULL",
+        "tid": "1228",
+        "meta": {"id":1228,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"Cash Deposit JOSEPH EBBE(FRESHER000634)","transtag":"TT21309MMZWV_BNK","transdate":"2021-11-05"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "107",
+        "uid": "NULL",
+        "tid": "1231",
+        "meta": {"id":1231,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"Cash Deposit AVORGAH GENEVIEVE(AUUG09200296)","transtag":"TT2130987W5K_BNK","transdate":"2021-11-05"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "108",
+        "uid": "NULL",
+        "tid": "1303",
+        "meta": {"id":1303,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"AUUG09200130","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2000,"reference":"Cash Deposit AUUG09200130-02-ABDUL RASHID KARIM U-2000-1","transtag":"TT21320GK2CY_BNK","transdate":"2021-11-16"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "109",
+        "uid": "NULL",
+        "tid": "2814",
+        "meta": {"id":2814,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":null,"paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"CalPay Inter Acct T JESSE QUARCOO JESSE QUARCOO FEES 2021","transtag":"FT21249KL5GV","transdate":"2021-09-06"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "110",
+        "uid": "NULL",
+        "tid": "2833",
+        "meta": {"id":2833,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit AUCC/0932/00142 ELLEN DIAMOND NUSINYO DEDZO","transtag":"TT21263KH2H6_LAB","transdate":"2021-09-20"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "111",
+        "uid": "NULL",
+        "tid": "2840",
+        "meta": {"id":2840,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit AUCC/0921/00056/UNDERGRADUATE FEES /DANIEL ADU/2020/1","transtag":"TT212636FSL0_WEJ","transdate":"2021-09-20"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "112",
+        "uid": "NULL",
+        "tid": "2841",
+        "meta": {"id":2841,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit AUCC/0920/00057/UNDERGRADUATE FEES /ESTHER LAMPTEY/2020/1","transtag":"TT212639NH16_BNK","transdate":"2021-09-20"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "113",
+        "uid": "NULL",
+        "tid": "2851",
+        "meta": {"id":2851,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit AUCC/0951/00129/UNDERGRADUATE FEES /NKANSAH ADOMAKO PRINCE/2020/1","transtag":"TT21265SJLQ5_BNK","transdate":"2021-09-22"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "114",
+        "uid": "NULL",
+        "tid": "2868",
+        "meta": {"id":2868,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":null,"paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit RITA KESEWAA MENSAH","transtag":"TT2126624RM0_ACB","transdate":"2021-09-23"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "115",
+        "uid": "NULL",
+        "tid": "2897",
+        "meta": {"id":2897,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit AUCC/0921/00293/UNDERGRADUATE FEES /WILLIAM BEDIA/2020/1","transtag":"TT21270NG2PQ_BNK","transdate":"2021-09-27"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "116",
+        "uid": "NULL",
+        "tid": "2921",
+        "meta": {"id":2921,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2020,"reference":"Cash Deposit AUCC/0921/00047/UNDERGRADUATE FEES /CELESTINE EYRAM AMEKAH/2020/1","transtag":"TT2127782YKP_BNK","transdate":"2021-10-04"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "117",
+        "uid": "NULL",
+        "tid": "2986",
+        "meta": {"id":2986,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1300,"reference":"Cash Deposit AUUG09200172/UNDERGRADUATE FEES/IG NATIUS SIMON KOFI TORVE/1300/1","transtag":"TT212777R7L2_BNK","transdate":"2021-10-04"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "118",
+        "uid": "NULL",
+        "tid": "2995",
+        "meta": {"id":2995,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUBS09191034/UNDERGRADUATE FEES/ER IC SAM/ AIDOO/1000/1","transtag":"TT2127821XBM_BNK","transdate":"2021-10-05"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "119",
+        "uid": "NULL",
+        "tid": "2999",
+        "meta": {"id":2999,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1500,"reference":"Cash Deposit AUUG09200041/UNDERGRADUATE FEES/JE NNIFER AKPENE AHIAGBE/1500/1","transtag":"TT21278W98QS_BNK","transdate":"2021-10-05"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "120",
+        "uid": "NULL",
+        "tid": "3002",
+        "meta": {"id":3002,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUUG09200224/UNDERGRADUATE FEES/JO SEPHINE ANNOR FRIMPONG/1000/1","transtag":"TT21279M209V_BNK","transdate":"2021-10-06"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "121",
+        "uid": "NULL",
+        "tid": "3003",
+        "meta": {"id":3003,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUUG09200065/UNDERGRADUATE FEES/LI NDA NYAMEKYE OKOH/1000/1","transtag":"TT212793ZTSP_BNK","transdate":"2021-10-06"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "122",
+        "uid": "NULL",
+        "tid": "3007",
+        "meta": {"id":3007,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2365,"reference":"Cash Deposit AUUG09200222/UNDERGRADUATE FEES/VI VIAN POMAA/2365/1","transtag":"TT21279DTHV4_BNK","transdate":"2021-10-06"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "123",
+        "uid": "NULL",
+        "tid": "3010",
+        "meta": {"id":3010,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUUG09200001/UNDERGRADUATE FEES/AY ITEY AGNES/1000/1","transtag":"TT21280998VK_BNK","transdate":"2021-10-07"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "124",
+        "uid": "NULL",
+        "tid": "3012",
+        "meta": {"id":3012,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1500,"reference":"Cash Deposit AUUUG09180075/UNDERGRADUATE FEES/W ILMA ENTSIEY/1500/1","transtag":"TT212809KXSL_BNK","transdate":"2021-10-07"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "125",
+        "uid": "NULL",
+        "tid": "3015",
+        "meta": {"id":3015,"collector_id":1,"transtype_id":2,"bankacc_id":1,"refno":"null","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"Cash Deposit AUUG09200126/UNDERGRADUATE FEES/DO RIS DWAMENA BRAKO/1000/1","transtag":"TT21281NCNCT_BNK","transdate":"2021-10-08"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "126",
+        "uid": "NULL",
+        "tid": "3309",
+        "meta": {"id":3309,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00094","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2020,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-02-03"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "127",
+        "uid": "NULL",
+        "tid": "3735",
+        "meta": {"id":3735,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00089","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2365,"reference":"FEES PAYMENT FOR UNDERGRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-03-24"},
+        "created_at": "2023-03-24 17:32:46"
+    },
+    {
+        "id": "128",
+        "uid": "NULL",
+        "tid": "2769",
+        "meta": {"id":2769,"collector_id":1,"transtype_id":4,"bankacc_id":null,"refno":"AUMB09202043","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUMB09202043 04 ACHAMFOUR FELIXKWASI BAAH 1000 1","transtag":"AUCC-10250163","transdate":"2022-02-11"},
+        "created_at": "2023-03-24 18:17:46"
+    },
+    {
+        "id": "129",
+        "uid": "NULL",
+        "tid": "3107",
+        "meta": {"id":3107,"collector_id":1,"transtype_id":4,"bankacc_id":null,"refno":"AUMB09202034","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUMB09202034 04 ASOMANI SARAHSOMUAH 1000 1","transtag":"AUCC-10262922","transdate":"2022-02-18"},
+        "created_at": "2023-03-24 18:17:46"
+    },
+    {
+        "id": "130",
+        "uid": "NULL",
+        "tid": "4006",
+        "meta": {"id":4006,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"AUCC/0921/00162","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":4800,"reference":"FEES PAYMENT FOR GRADUATE SCHOOL","transtag":"AUCC_FIN","transdate":"2022-05-04"},
+        "created_at": "2023-03-24 18:17:46"
+    },
+    {
+        "id": "131",
+        "uid": "NULL",
+        "tid": "8971",
+        "meta": {"id":8971,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"22090039","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUUG09220119 02 Amoah Lilian 1000 1","transtag":"AUCC-10773774","transdate":"2023-03-27"},
+        "created_at": "2023-03-27 13:47:47"
+    },
+    {
+        "id": "132",
+        "uid": "NULL",
+        "tid": "9513",
+        "meta": {"id":9513,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"21091304","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUBS09221037 02 ATTOH FLORENCE OKINE 1000 3","transtag":"AUCC-10806080","transdate":"2023-04-27"},
+        "created_at": "2023-04-27 09:02:46"
+    },
+    {
+        "id": "133",
+        "uid": "NULL",
+        "tid": "9556",
+        "meta": {"id":9556,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"21091304","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"FT23117788N3M","transdate":"2023-04-27"},
+        "created_at": "2023-04-28 08:47:01"
+    },
+    {
+        "id": "134",
+        "uid": "NULL",
+        "tid": "9558",
+        "meta": {"id":9558,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"21091304","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"FT23117788N3M","transdate":"2023-04-27"},
+        "created_at": "2023-04-28 09:02:01"
+    },
+    {
+        "id": "135",
+        "uid": "NULL",
+        "tid": "9703",
+        "meta": {"id":9703,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUCC/0921/00228","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUUG09210075-02-OFORI JEMIMA  DUFIE-1000","transtag":"AUCC-10809350","transdate":"2023-04-29"},
+        "created_at": "2023-04-29 16:47:02"
+    },
+    {
+        "id": "136",
+        "uid": "NULL",
+        "tid": "9758",
+        "meta": {"id":9758,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"21091221","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"AUBS09221058 02 ACQUAYE ABIGAILSIKA 500 3","transtag":"AUCC-10810345","transdate":"2023-05-02"},
+        "created_at": "2023-05-02 11:32:01"
+    },
+    {
+        "id": "137",
+        "uid": "NULL",
+        "tid": "10298",
+        "meta": {"id":10298,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010148","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":300,"reference":"AUUG01230082 02 POBEE MILLISA 300 1","transtag":"AUCC-10823611","transdate":"2023-05-10"},
+        "created_at": "2023-05-10 10:02:03"
+    },
+    {
+        "id": "138",
+        "uid": "NULL",
+        "tid": "10386",
+        "meta": {"id":10386,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUUG09200066","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":100,"reference":"AUUG09200066 02 KUMAH FRANCISSCAEFFIA 100 1","transtag":"AUCC-10830657","transdate":"2023-05-13"},
+        "created_at": "2023-05-13 15:02:45"
+    },
+    {
+        "id": "139",
+        "uid": "NULL",
+        "tid": "11016",
+        "meta": {"id":11016,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010002","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2365,"reference":"AUUG01230062 02 Bediako Naomi Asomani 2365 1","transtag":"AUCC-10898311","transdate":"2023-08-01"},
+        "created_at": "2023-08-01 23:17:53"
+    },
+    {
+        "id": "140",
+        "uid": "NULL",
+        "tid": "11017",
+        "meta": {"id":11017,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010002","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2365,"reference":"AUUG01230062 02 Bediako Naomi Asomani 2365 1","transtag":"AUCC-10898312","transdate":"2023-08-01"},
+        "created_at": "2023-08-01 23:17:53"
+    },
+    {
+        "id": "141",
+        "uid": "NULL",
+        "tid": "11019",
+        "meta": {"id":11019,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010002","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2365,"reference":"AUUG01230062 02 Bediako Naomi Asomani 2365 1","transtag":"AUCC-10898311","transdate":"2023-08-01"},
+        "created_at": "2023-08-01 23:32:53"
+    },
+    {
+        "id": "142",
+        "uid": "NULL",
+        "tid": "11020",
+        "meta": {"id":11020,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010002","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2365,"reference":"AUUG01230062 02 Bediako Naomi Asomani 2365 1","transtag":"AUCC-10898312","transdate":"2023-08-01"},
+        "created_at": "2023-08-01 23:32:53"
+    },
+    {
+        "id": "143",
+        "uid": "NULL",
+        "tid": "11515",
+        "meta": {"id":11515,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"21091304","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUBS09221037","transdate":"2023-04-27"},
+        "created_at": "2023-09-08 10:14:45"
+    },
+    {
+        "id": "144",
+        "uid": "NULL",
+        "tid": "11911",
+        "meta": {"id":11911,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"22090036","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1600,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"22090036","transdate":"2023-09-05"},
+        "created_at": "2023-10-04 17:05:18"
+    },
+    {
+        "id": "145",
+        "uid": "NULL",
+        "tid": "11913",
+        "meta": {"id":11913,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"22090036","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1600,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUDM09221008","transdate":"2023-09-05"},
+        "created_at": "2023-10-04 17:15:12"
+    },
+    {
+        "id": "146",
+        "uid": "NULL",
+        "tid": "11946",
+        "meta": {"id":11946,"collector_id":2,"transtype_id":2,"bankacc_id":3,"refno":"23010721","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":7000,"reference":"TUITION FEES","transtag":"TT230627BD0X_CCB","transdate":"2023-03-03"},
+        "created_at": "2023-10-10 11:25:10"
+    },
+    {
+        "id": "147",
+        "uid": "NULL",
+        "tid": "11947",
+        "meta": {"id":11947,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010721","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":7000,"reference":"GRADUATE SCHOOL PAYMENT","transtag":"TT230627BD0X_CCB","transdate":"2023-03-03"},
+        "created_at": "2023-10-10 11:25:10"
+    },
+    {
+        "id": "148",
+        "uid": "NULL",
+        "tid": "12216",
+        "meta": {"id":12216,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010058","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUUG01230056 02 NUREIN ILHAM 1000 1","transtag":"AUCC-11127011","transdate":"2023-11-02"},
+        "created_at": "2023-11-02 09:45:21"
+    },
+    {
+        "id": "149",
+        "uid": "NULL",
+        "tid": "12434",
+        "meta": {"id":12434,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUCC/0921/00169","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2000,"reference":"AUUG09210007 02 WILLIAM GENTU 2000 1","transtag":"AUCC-11149083","transdate":"2023-11-10"},
+        "created_at": "2023-11-10 12:05:33"
+    },
+    {
+        "id": "150",
+        "uid": "NULL",
+        "tid": "12531",
+        "meta": {"id":12531,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010053","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":100,"reference":"AUUG01230089 - ACADEMIC FEES - KOTUN NAOMI VERNICE  - 100 -  FOR AUCC FFES PAYMENT - GHS","transtag":"AUCC-11161774","transdate":"2023-11-15"},
+        "created_at": "2023-11-15 11:55:21"
+    },
+    {
+        "id": "151",
+        "uid": "NULL",
+        "tid": "13000",
+        "meta": {"id":13000,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUCC/0921/00194","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2615,"reference":"AUBS09211035 02 LILIAN NORTEY 2615 1","transtag":"AUCC-11187280","transdate":"2023-11-28"},
+        "created_at": "2023-11-28 16:56:19"
+    },
+    {
+        "id": "152",
+        "uid": "NULL",
+        "tid": "13003",
+        "meta": {"id":13003,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUUG09200035","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":200,"reference":"AUUG09200035 02 UKAH FAVOURCHIAMAKA 200 1","transtag":"AUCC-11187284","transdate":"2023-11-28"},
+        "created_at": "2023-11-28 17:06:27"
+    },
+    {
+        "id": "153",
+        "uid": "NULL",
+        "tid": "13161",
+        "meta": {"id":13161,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"21091201","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":165,"reference":"AUUG01220102 - ACADEMIC FEES - ALIMU BASHA ISMAIL  - 165 -  FOR AUCC FFES PAYMENT - GHS","transtag":"AUCC-11190941","transdate":"2023-11-30"},
+        "created_at": "2023-11-30 15:06:24"
+    },
+    {
+        "id": "154",
+        "uid": "NULL",
+        "tid": "13197",
+        "meta": {"id":13197,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23091518","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":45,"reference":"AUUG09230081 - ACADEMIC FEES - APPIAH KORANG JUSTICE  - 45 -  FOR AUCC FFES PAYMENT - GHS","transtag":"AUCC-11191183","transdate":"2023-11-30"},
+        "created_at": "2023-11-30 16:36:25"
+    },
+    {
+        "id": "155",
+        "uid": "NULL",
+        "tid": "13432",
+        "meta": {"id":13432,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"21091308","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUBS09221013 02 DUADE ABDULRAUF YAW 1000 1","transtag":"AUCC-11200840","transdate":"2023-12-06"},
+        "created_at": "2023-12-06 13:41:33"
+    },
+    {
+        "id": "156",
+        "uid": "NULL",
+        "tid": "13765",
+        "meta": {"id":13765,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091517","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1500,"reference":"UNDERGRADUATE SCHOOL FEES PAYMENT","transtag":"11004887","transdate":"2023-09-08"},
+        "created_at": "2024-01-22 14:14:10"
+    },
+    {
+        "id": "157",
+        "uid": "NULL",
+        "tid": "13766",
+        "meta": {"id":13766,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091517","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":250,"reference":"UNDERGRADUATE SCHOOL PAYMENT","transtag":"11188850","transdate":"2023-11-29"},
+        "created_at": "2024-01-22 14:14:10"
+    },
+    {
+        "id": "158",
+        "uid": "NULL",
+        "tid": "13992",
+        "meta": {"id":13992,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091654","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":4000,"reference":"UNDERGRADUATE SCHOOL FEES PAYMENT","transtag":"FT24025BHVFX","transdate":"2024-01-25"},
+        "created_at": "2024-01-25 17:36:27"
+    },
+    {
+        "id": "159",
+        "uid": "NULL",
+        "tid": "14003",
+        "meta": {"id":14003,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091536","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1050,"reference":"UNDERGRADUATE SCHOOL FEES PAYMENT","transtag":"TT23334PC850","transdate":"2023-11-30"},
+        "created_at": "2024-01-26 10:24:49"
+    },
+    {
+        "id": "160",
+        "uid": "NULL",
+        "tid": "14068",
+        "meta": {"id":14068,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091463","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT23298F93XT_BNK","transdate":"2023-10-25"},
+        "created_at": "2024-01-26 13:58:06"
+    },
+    {
+        "id": "161",
+        "uid": "NULL",
+        "tid": "14070",
+        "meta": {"id":14070,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091463","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":700,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT23331W20L8_BNK","transdate":"2023-11-27"},
+        "created_at": "2024-01-26 13:58:06"
+    },
+    {
+        "id": "162",
+        "uid": "NULL",
+        "tid": "14071",
+        "meta": {"id":14071,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091463","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":300,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT23334NVF33_BNK","transdate":"2023-11-30"},
+        "created_at": "2024-01-26 13:58:06"
+    },
+    {
+        "id": "163",
+        "uid": "NULL",
+        "tid": "14072",
+        "meta": {"id":14072,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091463","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":50,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT23334KGN2F_BNK","transdate":"2023-11-30"},
+        "created_at": "2024-01-26 13:58:07"
+    },
+    {
+        "id": "164",
+        "uid": "NULL",
+        "tid": "14076",
+        "meta": {"id":14076,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091441","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":300,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"FT233349QLDN_BNK","transdate":"2023-11-30"},
+        "created_at": "2024-01-26 13:58:07"
+    },
+    {
+        "id": "165",
+        "uid": "NULL",
+        "tid": "14287",
+        "meta": {"id":14287,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091427","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC-11296596","transdate":"2024-02-02"},
+        "created_at": "2024-02-02 17:29:05"
+    },
+    {
+        "id": "166",
+        "uid": "NULL",
+        "tid": "14290",
+        "meta": {"id":14290,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010721","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1500,"reference":"GRADUATE FEES PAYMENT","transtag":"23010721","transdate":"2023-12-05"},
+        "created_at": "2024-02-02 17:41:54"
+    },
+    {
+        "id": "167",
+        "uid": "NULL",
+        "tid": "14291",
+        "meta": {"id":14291,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010721","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":500,"reference":"GRADUATE FEES PAYMENT","transtag":"230107211","transdate":"2023-12-22"},
+        "created_at": "2024-02-02 17:41:54"
+    },
+    {
+        "id": "168",
+        "uid": "NULL",
+        "tid": "14428",
+        "meta": {"id":14428,"collector_id":1,"transtype_id":4,"bankacc_id":null,"refno":"AUUG09190150","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":700,"reference":"AUUG09190150 04 AWUDOR HOLIVE MIDZIMAWO 700 1","transtag":"AUCC-11318391","transdate":"2024-02-15"},
+        "created_at": "2024-02-15 15:35:05"
+    },
+    {
+        "id": "169",
+        "uid": "NULL",
+        "tid": "14666",
+        "meta": {"id":14666,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"24010074","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":500,"reference":"24010074 - ACADEMIC FEES - KLUTSE DANIELLA ENYONAM  - 500 -  FOR AUCC FFES PAYMENT - GHS","transtag":"AUCC-11343524","transdate":"2024-02-29"},
+        "created_at": "2024-02-29 15:52:38"
+    },
+    {
+        "id": "170",
+        "uid": "NULL",
+        "tid": "14690",
+        "meta": {"id":14690,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010513","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT2327296X0L_BNK","transdate":"2023-09-29"},
+        "created_at": "2024-03-02 12:38:39"
+    },
+    {
+        "id": "171",
+        "uid": "NULL",
+        "tid": "14691",
+        "meta": {"id":14691,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010513","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1465,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT23321XDT2G_BNK","transdate":"2023-11-17"},
+        "created_at": "2024-03-02 12:44:57"
+    },
+    {
+        "id": "172",
+        "uid": "NULL",
+        "tid": "14692",
+        "meta": {"id":14692,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010513","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT2327296X0L_BNK","transdate":"2023-09-29"},
+        "created_at": "2024-03-02 12:44:57"
+    },
+    {
+        "id": "173",
+        "uid": "NULL",
+        "tid": "14693",
+        "meta": {"id":14693,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010547","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2465,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"FT23331N46ZB_BNK","transdate":"2023-11-24"},
+        "created_at": "2024-03-02 12:52:23"
+    },
+    {
+        "id": "174",
+        "uid": "NULL",
+        "tid": "14694",
+        "meta": {"id":14694,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010547","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2465,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"FT23331N46ZB_BNK","transdate":"2023-11-24"},
+        "created_at": "2024-03-02 12:59:54"
+    },
+    {
+        "id": "175",
+        "uid": "NULL",
+        "tid": "14695",
+        "meta": {"id":14695,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010513","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT2327296X0L_BNK","transdate":"2023-09-29"},
+        "created_at": "2024-03-02 12:59:54"
+    },
+    {
+        "id": "176",
+        "uid": "NULL",
+        "tid": "14696",
+        "meta": {"id":14696,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010513","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT2327296X0L_BNK","transdate":"2023-09-29"},
+        "created_at": "2024-03-02 13:07:30"
+    },
+    {
+        "id": "177",
+        "uid": "NULL",
+        "tid": "14697",
+        "meta": {"id":14697,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23010513","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1465,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT23321XDT2G_BNK","transdate":"2023-11-17"},
+        "created_at": "2024-03-02 13:07:30"
+    },
+    {
+        "id": "178",
+        "uid": "NULL",
+        "tid": "15018",
+        "meta": {"id":15018,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"24010078","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":2050,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"24010078","transdate":"2024-03-12"},
+        "created_at": "2024-03-22 10:45:22"
+    },
+    {
+        "id": "179",
+        "uid": "NULL",
+        "tid": "15297",
+        "meta": {"id":15297,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010526","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2000,"reference":"AUUG01230081 02 TAGOE SANDRA NAA DEDEI 2000 6","transtag":"AUCC-11395708","transdate":"2024-04-10"},
+        "created_at": "2024-04-10 10:56:34"
+    },
+    {
+        "id": "180",
+        "uid": "NULL",
+        "tid": "15298",
+        "meta": {"id":15298,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"23010526","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":2000,"reference":"AUUG01230081 02 TAGOE SANDRA NAA DEDEI 2000 6","transtag":"AUCC-11395719","transdate":"2024-04-10"},
+        "created_at": "2024-04-10 10:56:34"
+    },
+    {
+        "id": "181",
+        "uid": "NULL",
+        "tid": "15323",
+        "meta": {"id":15323,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091562","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC-11093444","transdate":"2023-10-18"},
+        "created_at": "2024-04-12 15:46:45"
+    },
+    {
+        "id": "182",
+        "uid": "NULL",
+        "tid": "15324",
+        "meta": {"id":15324,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091562","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":750,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC-11162826","transdate":"2023-11-16"},
+        "created_at": "2024-04-12 15:46:45"
+    },
+    {
+        "id": "183",
+        "uid": "NULL",
+        "tid": "15325",
+        "meta": {"id":15325,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091562","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":300,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC-11185357","transdate":"2023-11-27"},
+        "created_at": "2024-04-12 15:46:45"
+    },
+    {
+        "id": "184",
+        "uid": "NULL",
+        "tid": "15326",
+        "meta": {"id":15326,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091562","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1500,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC-11278671","transdate":"2024-01-25"},
+        "created_at": "2024-04-12 15:46:45"
+    },
+    {
+        "id": "185",
+        "uid": "NULL",
+        "tid": "15328",
+        "meta": {"id":15328,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091562","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":500,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC-11361333","transdate":"2024-03-14"},
+        "created_at": "2024-04-12 15:46:45"
+    },
+    {
+        "id": "186",
+        "uid": "NULL",
+        "tid": "15329",
+        "meta": {"id":15329,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091562","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":550,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"AUCC-11400913","transdate":"2024-04-12"},
+        "created_at": "2024-04-12 15:46:45"
+    },
+    {
+        "id": "187",
+        "uid": "NULL",
+        "tid": "15413",
+        "meta": {"id":15413,"collector_id":2,"transtype_id":2,"bankacc_id":3,"refno":"23091179","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":200,"reference":"POSTGRADUATE FEES PAYMENT","transtag":"FT241031B8TT_BNK","transdate":"2024-04-12"},
+        "created_at": "2024-04-20 16:55:25"
+    },
+    {
+        "id": "188",
+        "uid": "NULL",
+        "tid": "15453",
+        "meta": {"id":15453,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091497","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT24113G6LG0","transdate":"2024-04-23"},
+        "created_at": "2024-04-23 18:05:30"
+    },
+    {
+        "id": "189",
+        "uid": "NULL",
+        "tid": "15455",
+        "meta": {"id":15455,"collector_id":2,"transtype_id":2,"bankacc_id":1,"refno":"23091555","paytype":null,"payrate":null,"feetype":"NORMAL","currency":"GHC","amount":1000,"reference":"UNDERGRADUATE FEES PAYMENT","transtag":"TT24113G6LG0","transdate":"2024-04-23"},
+        "created_at": "2024-04-23 18:15:28"
+    },
+    {
+        "id": "190",
+        "uid": "NULL",
+        "tid": "16180",
+        "meta": {"id":16180,"collector_id":1,"transtype_id":2,"bankacc_id":null,"refno":"AUUG09200068","paytype":"BANK","payrate":null,"feetype":null,"currency":"GHC","amount":1000,"reference":"AUUG09200068 02 PEPERTUAL GYAMFI 1000 1","transtag":"AUCC-11445413","transdate":"2024-05-09"},
+        "created_at": "2024-05-09 12:45:25"
+    }
+]

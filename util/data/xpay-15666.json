@@ -1,0 +1,2214 @@
+[
+    {
+        "id": "2024010000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 1,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 54352,
+        "basicSalary": 4529.33,
+        "netSalary": 4639.49,
+        "irsTax": 1504.34,
+        "ssfDeductEmployee": 249.11,
+        "ssfDeductEmployer": 588.81,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-01-31T12:22:03.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 8371,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "C403BCFEA5F643B59B9A4CE0B0D8E2FA",
+            "mainId": "2024010000013569",
+            "payMonth": 1,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": "[ Approved by payroll Admin: MR. ABOSOMPIM, ROBERT  OFORI ] : [ Approved by payroll Admin: MR. ABOSOMPIM, ROBERT  OFORI ]",
+            "approvedByHod": 7069,
+            "approvedDate": "2024-01-31T18:39:04.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "2553DBAA06BA48F795C3B377403DB23E",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 362.35,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "4BA50E40096341BCAF6BBACE2479C693",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "552166A839D44F568D4A68E80EB005B1",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 989.1,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "60DDE5347F57438788D41ADDCF07C795",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 905.87,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "81B133617828416B95187B46282BB09B",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 741.83,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "CBDA2918A89947368102BD680CD859BE",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "37B77BC2A6204919AD4F6FC7E09C228D",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "649197096F144B4EB7624F347F363672",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 90.59,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "7FCC66FF9C404C27A1ABC2C23F3219AC",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "8D7A27C061394F2DB3E637FD0AF92D77",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "A5683B49E3114ADEAE5B2A17B714267A",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 9485.44,
+                "loanAmount": 21342.24
+            },
+            {
+                "id": "B2366D2D113B4F868F094949EA52D84E",
+                "mainId": "2024010000013569",
+                "payMonth": 1,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 7767.1825,
+                "loanAmount": 25419.87
+            }
+        ]
+    },
+    {
+        "id": "2024020000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 2,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 54352,
+        "basicSalary": 4529.33,
+        "netSalary": 4639.49,
+        "irsTax": 1504.34,
+        "ssfDeductEmployee": 249.11,
+        "ssfDeductEmployer": 588.81,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-02-29T09:18:56.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 8371,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "673153CB6BC14289B02287B04F52002A",
+            "mainId": "2024020000013569",
+            "payMonth": 2,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 8371,
+            "approvedDate": "2024-02-26T11:07:49.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "39D89C8DA2704ABC9D99A498BD7DCC31",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 989.1,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "47C78BE71AFC4A22BBA10372C9CBE610",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "672BB42EBB6D4ECD85FA4AEA26003717",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 741.83,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "D10FE1C5FA29478486C4BE7FDF675B77",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 905.87,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "DBBD9FC54CE34B058390DB4CC8BB706A",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "F93F8DEFA03B476E9FB1871C477134F9",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 362.35,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "12B99D79AFF942968AA8B86B2B458C22",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "17EAF902AED54E4780625A58ECEAF1FC",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "2E3862425F664033B9266F94D0D81479",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "408647A032354D0F9926D020789F42F0",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 90.59,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "8527E50B971F4D23A68D8AE638F1BF88",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 7061.075,
+                "loanAmount": 25419.87
+            },
+            {
+                "id": "FE7C9FAC4D874873B5D7BE55193525A2",
+                "mainId": "2024020000013569",
+                "payMonth": 2,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 8892.6,
+                "loanAmount": 21342.24
+            }
+        ]
+    },
+    {
+        "id": "2024030000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 3,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 54352,
+        "basicSalary": 4529.33,
+        "netSalary": 4639.49,
+        "irsTax": 1504.34,
+        "ssfDeductEmployee": 249.11,
+        "ssfDeductEmployer": 588.81,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2025-03-25T16:25:33.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 8371,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "1988EAB3E45C4CF1858B4C424AFECE16",
+            "mainId": "2024030000013569",
+            "payMonth": 3,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 8371,
+            "approvedDate": "2024-03-27T20:52:53.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "05E479A99159488490E3AE25D9AE1A61",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "18C2BED7AC9648F5B7982352423F02CF",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 989.1,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "2D37E9016BC84FDB9D479CED678E1ECE",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 362.35,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "4675B4A3EE854F05811AAE7F9156AB92",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 905.87,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "ABCA1673874B45B1B17D15CA70D8342D",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 741.83,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "F8A052F950984F868C2840CDE810649F",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "9EA90FE0A2754CD9B77B6B436FE08F7D",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "B9ACA8315E1445119663CB845A308BE5",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "D1BB7B08E8224026ABB6BB56E1DACC1E",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 90.59,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "D50713D7BB514C78A45768BAEDC90FCC",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "0A352E3233CC4E87834EC0DAE68CBA6D",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 8299.76,
+                "loanAmount": 21342.24
+            },
+            {
+                "id": "1AD1AF641D2E4B66A95F7902FD376562",
+                "mainId": "2024030000013569",
+                "payMonth": 3,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 6354.9675,
+                "loanAmount": 25419.87
+            }
+        ]
+    },
+    {
+        "id": "2024040000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 4,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 54352,
+        "basicSalary": 4529.33,
+        "netSalary": 4639.49,
+        "irsTax": 1504.34,
+        "ssfDeductEmployee": 249.11,
+        "ssfDeductEmployer": 588.81,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-04-30T18:05:37.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 8371,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "1B65B3BBC9A245C5A6C16C7C094C9545",
+            "mainId": "2024040000013569",
+            "payMonth": 4,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 8371,
+            "approvedDate": "2024-04-24T12:48:41.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "20CD0D4FC3F34074869AD5D14FB6D70F",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 989.1,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "22868905FD2E43099B1844D00847FB30",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 905.87,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "2FDE87B4A7544FAB8E12243C8C1F254E",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "52B5DCFEC9C24961B9CF7D85B9DEC625",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 741.83,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "85DA8958AB2743D5AD8AADC08A225F10",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "C454CDB5708046FAA5E6A876034F2D08",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 362.35,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "01EE8322484A45E193E571D45E9B92F8",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "0976A312A7FA4B899FB6A78C9E76021B",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "87EF5B87133D4AC1B1640669E7F695E8",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "F8D79839B818471D96611B10846AA1F7",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 90.59,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "DEBC1D6D9C91468B848C668E1927DD68",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 7706.92,
+                "loanAmount": 21342.24
+            },
+            {
+                "id": "E555B695CA4D41CF9A8F51A2A3A374DB",
+                "mainId": "2024040000013569",
+                "payMonth": 4,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 5648.86,
+                "loanAmount": 25419.87
+            }
+        ]
+    },
+    {
+        "id": "2024050000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 5,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 54352,
+        "basicSalary": 4529.33,
+        "netSalary": 5466.04,
+        "irsTax": 1779.86,
+        "ssfDeductEmployee": 249.11,
+        "ssfDeductEmployer": 588.81,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-05-30T09:43:27.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 8371,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "456034064B66410C9683773FF00A0C82",
+            "mainId": "2024050000013569",
+            "payMonth": 5,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 8371,
+            "approvedDate": "2024-05-29T21:58:30.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "132F3DA8C0654E1F9B88165862E01A55",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Arrears",
+                "amount": 504,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "2F9993BE36D94DFD8FF757A4E084F7E4",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "allowanceType": "Off Campus Arrears",
+                "amount": 378,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "4D12F66C27584A338F98577469CF3350",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 836,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "7763B1347E6F4CD3B30FD697B5428390",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "B5C1FEF58AF441A393C9841440090A01",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 905.87,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "BC5B01A863344F0ABC65F7452E102559",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 1115,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "E69AF15CAC7A417792AAE67492D74873",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "FF9689146F234D798E50C058D8078051",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 362.35,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "36D1DFF915EA4C459D7B65C96BA2493D",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "A2B4B84747B9424889478BB21E23C675",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 90.59,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "C3D75A950575494CB700954D490E2A7E",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "FB01983EC42249198A01187AD48C3EF9",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "3D0E49D3514545A19101419960D6C96E",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 7114.08,
+                "loanAmount": 21342.24
+            },
+            {
+                "id": "CF5671C15B104ACDB27D50007F900512",
+                "mainId": "2024050000013569",
+                "payMonth": 5,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 4942.7525,
+                "loanAmount": 25419.87
+            }
+        ]
+    },
+    {
+        "id": "2024060000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 6,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 54352,
+        "basicSalary": 4529.33,
+        "netSalary": 4804.54,
+        "irsTax": 1559.36,
+        "ssfDeductEmployee": 249.11,
+        "ssfDeductEmployer": 588.81,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-06-29T13:50:33.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 8371,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "2FB9E861096243A1979F68E8D22FD445",
+            "mainId": "2024060000013569",
+            "payMonth": 6,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 8371,
+            "approvedDate": "2024-06-26T10:43:47.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "135C20534C9C44AC944A1B86286C7CCA",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "558FA30168DE414E9871E5AB2558188E",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 362.35,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "7DAFDCD81664498B9F80C88F4A5D673A",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 836,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "92A00D4159CC430DAE5B7B425CCC7CEF",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 1115,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "E61722E09D6949DE8CFAEB89F67F6315",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "E9A0E3F7693346CD889551EDBA3316C0",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 905.87,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "25D5BFDC57E64A1E900DB60EC9E70EC3",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "C592935C351445CA9A2537FFA29FBC31",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "D0B8971455BD41C793C63BF3AED2F541",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "F71A5DCB14074A4DA491B4A25D21531F",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 90.59,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "D2AB8B6F01D04B7EB859DABD10AEC65B",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 6521.24,
+                "loanAmount": 21342.24
+            },
+            {
+                "id": "E9FC079F92234916BA9D51DE77C392DA",
+                "mainId": "2024060000013569",
+                "payMonth": 6,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 4236.645,
+                "loanAmount": 25419.87
+            }
+        ]
+    },
+    {
+        "id": "2024070000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 7,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 55439,
+        "basicSalary": 4619.92,
+        "netSalary": 4885.95,
+        "irsTax": 1587.1,
+        "ssfDeductEmployee": 254.1,
+        "ssfDeductEmployer": 600.59,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-07-31T15:35:24.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 8371,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "D5839BCBCD624474B2FF95DA4B663528",
+            "mainId": "2024070000013569",
+            "payMonth": 7,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 8371,
+            "approvedDate": "2024-07-24T17:27:47.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "23073EA927674BCC88EF04A6A9B90349",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 369.59,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "3056700925CA4C10B92A834377F14033",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "33F75BA97C70456DBA79A292FF84C683",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 1115,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "C2AB864FA1CB481DB78E4E1A13A18E25",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 836,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "CCF55D591607481EBF53E5242C595974",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 923.98,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "DF96F2B14F9F473489A95A3107D6C621",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "2D40E3FF6710457189C6F1C244284F3B",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 92.4,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "4178B97708AA4938A3DE188EEE0B29C6",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "66D1BEAAC5D84D0D9A92A791976ECE8F",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "86064C4C18384F26899FCEFB86FE0313",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "22C3BB0AC22C4E67B8EA32BD444095E7",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 3530.5375,
+                "loanAmount": 25419.87
+            },
+            {
+                "id": "811524924CE84A93A7888AC9AE786F4C",
+                "mainId": "2024070000013569",
+                "payMonth": 7,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 5928.4,
+                "loanAmount": 21342.24
+            }
+        ]
+    },
+    {
+        "id": "2024080000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 8,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 55439,
+        "basicSalary": 4619.92,
+        "netSalary": 4885.95,
+        "irsTax": 1587.1,
+        "ssfDeductEmployee": 254.1,
+        "ssfDeductEmployer": 600.59,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-08-28T16:17:13.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 9427,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "173CE788359E4E619C9D47391836E209",
+            "mainId": "2024080000013569",
+            "payMonth": 8,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 9427,
+            "approvedDate": "2024-08-23T08:51:53.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "07C26F3362B44A449357404C0D64D4D4",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "1EB7B78A4FDF4332B0499F4E7235DEAF",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 1115,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "34159822AAD244D98E1FE3BB1A0BDFA4",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 923.98,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "638B30BE551E49D88265050F4101BCD4",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "CF400C4BD786463184E0C4EB4FE44405",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 836,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "D588EEE967A449A4AEF641381240D616",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 369.59,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "31B9325BFE5F42CB8F9D31FDF9ECA671",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "AD9B616074E849F68761CABF4FE240C0",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 92.4,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "D5F3272979154350B521B1A0B23945F8",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "E9940C95B01245FC9197B91E5B6BC163",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "13A830FABFEC47F6BC0D1B75654AA9A8",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 2824.43,
+                "loanAmount": 25419.87
+            },
+            {
+                "id": "D1F43E30840F4D51980DB35847BD182F",
+                "mainId": "2024080000013569",
+                "payMonth": 8,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 5335.56,
+                "loanAmount": 21342.24
+            }
+        ]
+    },
+    {
+        "id": "2024090000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 9,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 55439,
+        "basicSalary": 4619.92,
+        "netSalary": 4885.95,
+        "irsTax": 1587.1,
+        "ssfDeductEmployee": 254.1,
+        "ssfDeductEmployer": 600.59,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-09-27T11:41:06.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 9427,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "F1A9A9A59FF247C89016F549643589AB",
+            "mainId": "2024090000013569",
+            "payMonth": 9,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 9427,
+            "approvedDate": "2024-09-27T15:24:51.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "11FB6D25E0D44BA787A1560A90A3B2D6",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "1D283A7645FA4913A1E78E9C600DC082",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 1115,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "29BE1A72D4EF42A2A98A75D59049106D",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 836,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "45420310BDB24F15B610763BF54EDF71",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 369.59,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "553C33ACF85841E2AB8B636BD9530027",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 923.98,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "AC83096C3A4F4C6CAB79B47102DD03F0",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "26A55D5B4BA84EA496BB33812F375650",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "41C416CAFEC64A5C996D1BBD9A80CF84",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "6C38F67F21744A84855331EE6B19E52F",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "A3868D3855A146918F6335DCCB7B017C",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 92.4,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "030833D392834E9C881DF79AC161F011",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 2118.3225,
+                "loanAmount": 25419.87
+            },
+            {
+                "id": "D93149F2A54044759E70568A399F25FB",
+                "mainId": "2024090000013569",
+                "payMonth": 9,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 4742.72,
+                "loanAmount": 21342.24
+            }
+        ]
+    },
+    {
+        "id": "2024100000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 10,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 55439,
+        "basicSalary": 4619.92,
+        "netSalary": 5932.95,
+        "irsTax": 1936.1,
+        "ssfDeductEmployee": 254.1,
+        "ssfDeductEmployer": 600.59,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-10-31T15:58:10.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 9427,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "55B51FFBF97B43FCB57ABD0F52B7ACBB",
+            "mainId": "2024100000013569",
+            "payMonth": 10,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 9427,
+            "approvedDate": "2024-10-29T14:21:06.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "0D2A3A46BB894BECBAB2AEF5E4F21B93",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "allowanceType": "Off Campus Arrears",
+                "amount": 450,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "1B02402724914588A014F8A841E10173",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 369.59,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "330FF9116A8642338E2459CC2D92D2B7",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "481124BAF74249FB8B30BC2D2E58973F",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Arrears",
+                "amount": 597,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "63B7CDBDF2F74FB2B132AD2F8B9CF1ED",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 1314,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "B3D6C4D8E258442EA4CC6B5721EDCF9D",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 923.98,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "D7D5FF4465944469B419CD786F26B16B",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 986,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "F4073971B36A409B8661B4C0D0880E4F",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "17372A39B46D4F7C9C6EC5B9B3ED12A5",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "1965F394A9D1430DB0084DD70CC7A2EB",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "2842D5B9570247F88B75ABD7888AE4C7",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "FBBCD6DE409B4549B903B3815AFD749F",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 92.4,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "13517EAFC0854F2B9F905716D9074701",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 4149.88,
+                "loanAmount": 21342.24
+            },
+            {
+                "id": "D4C0D67AD17B4177BF3B5A3E9749ECB6",
+                "mainId": "2024100000013569",
+                "payMonth": 10,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 1412.215,
+                "loanAmount": 25419.87
+            }
+        ]
+    },
+    {
+        "id": "2024110000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 11,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 55439,
+        "basicSalary": 4619.92,
+        "netSalary": 5147.7,
+        "irsTax": 1674.35,
+        "ssfDeductEmployee": 254.1,
+        "ssfDeductEmployer": 600.59,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-11-29T12:27:15.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 9427,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "D521B52AA78B42048401552543FCBC87",
+            "mainId": "2024110000013569",
+            "payMonth": 11,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": "[ Approved by payroll Admin: MR. ABOSOMPIM, ROBERT  OFORI ]",
+            "approvedByHod": 7069,
+            "approvedDate": null,
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "3070012B7B084D67A3913236C55E4EEA",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 369.59,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "468F65F55377406DB49D88A34C94E28E",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 986,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "66A5DC003D3D440BAD59CA8E86ABB90A",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "BE2E03F209BC4918970584CF3603568B",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "DF2FDE9F566842D0A1C1575829C8349C",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 1314,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "F1536D34DD2A45C2B7EB9DA73A1BED2D",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 923.98,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "3978DBC8DFA2485BA12F644B03CF9AF8",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "50C926FB4ACD48B4867EAE6D37C71896",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "605D36C726034759967018465336A5A3",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 92.4,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "AB4FB35F67A648D894E21E944A0DED30",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "961CBE42BE754A8CBAF8438EA48B1570",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 706.1075,
+                "loanAmount": 25419.87
+            },
+            {
+                "id": "B109850AC48D4CDC8C42803084350AE4",
+                "mainId": "2024110000013569",
+                "payMonth": 11,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 3557.04,
+                "loanAmount": 21342.24
+            }
+        ]
+    },
+    {
+        "id": "2024120000013569",
+        "hrId": 13569,
+        "staffCode": "15666",
+        "staffName": "MR. ACKAH, EBENEZER KWABENA BLAY",
+        "category": "Senior Staff",
+        "jobTitle": "PRINCIPAL ICT  ASSISTANT",
+        "unitName": "DIRECTORATE OF ICT",
+        "location": "Cape Coast",
+        "grade": "19L ",
+        "notch": "1   ",
+        "ssn": "A09890220018",
+        "payMonth": 12,
+        "payYear": 2024,
+        "daysWorked": 27,
+        "bankAccountNo": "4042000094168901",
+        "bankName": "ADB BANK ",
+        "bankBranch": "ENCHI",
+        "currency": "Ghana Cedi",
+        "salary": 55439,
+        "basicSalary": 4619.92,
+        "netSalary": 5147.7,
+        "irsTax": 1674.35,
+        "ssfDeductEmployee": 254.1,
+        "ssfDeductEmployer": 600.59,
+        "supEmployee": 0,
+        "supEmployer": 0,
+        "provEmployee": 0,
+        "provEmployer": 0,
+        "createdDate": "2024-12-20T15:30:44.000Z",
+        "createdBy": null,
+        "isHead": 0,
+        "headId": 9427,
+        "employee": {
+            "employeeId": 13569,
+            "workEmail": "ebenezer.ackah@ucc.edu.gh",
+            "activePhone": "0277675089",
+            "birthDate": null,
+            "status": 1
+        },
+        "payslipMainApproval": {
+            "id": "3D92BC2EC0044FAD851C7105400B6F34",
+            "mainId": "2024120000013569",
+            "payMonth": 12,
+            "payYear": 2024,
+            "approved": 1,
+            "comment": null,
+            "approvedByHod": 9427,
+            "approvedDate": "2024-12-16T10:39:48.000Z",
+            "accessedByStaff": null,
+            "accessedDate": null,
+            "hasAccess": 1,
+            "hasApproved": -1,
+            "dummy": null
+        },
+        "payslipAllowance": [
+            {
+                "id": "406BCE9E24E64FA6BA8AB7ABE7497C87",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "allowanceType": "Vehicle Maint Allow Car",
+                "amount": 1314,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "776AADD9DF3740B0A57FC62DDC114671",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "allowanceType": "Off Campus 1B",
+                "amount": 986,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "8A3E478EBF3F4F28AAEADB8F12979FAA",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "allowanceType": "Electricity Rebate",
+                "amount": 144,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "BE486F45699946AF872F795F19FB9458",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "allowanceType": "Non-Basic Salary Allowance",
+                "amount": 369.59,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "E3FA3BDA357548CFB8C2D504297E0C2B",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "allowanceType": "Rent",
+                "amount": 923.98,
+                "taxable": 1,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "F6D96348D0F2432D87EA41E21404FA28",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "allowanceType": "Security and Sanitation",
+                "amount": 200,
+                "taxable": 1,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipDeduction": [
+            {
+                "id": "69ADC1E21B474C47B0D290A69FF7E79C",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "deductionType": "General Welfare",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "918183E0468B42169D49B2D925E81CA9",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "deductionType": "USHEF",
+                "amount": 20,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "AC2A687B45E24A2FAB39CBDF88293AD4",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "deductionType": "DICTS Welfare",
+                "amount": 50,
+                "frequency": "Monthly"
+            },
+            {
+                "id": "B72A52F26C334E47B22E665B568EC91F",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "deductionType": "Senior Staff Association",
+                "amount": 92.4,
+                "frequency": "Monthly"
+            }
+        ],
+        "payslipRelief": [],
+        "payslipLoan": [
+            {
+                "id": "136BF648BB344EC4B70E9ECA76392FBE",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "loanType": "CRAN Microfinance",
+                "principalPayment": 706.1075,
+                "interestPayment": 0,
+                "loanBalance": 0,
+                "loanAmount": 25419.87
+            },
+            {
+                "id": "B96CF09515664503AEBDA65B829547AD",
+                "mainId": "2024120000013569",
+                "payMonth": 12,
+                "payYear": 2024,
+                "loanType": "Prudential",
+                "principalPayment": 592.84,
+                "interestPayment": 0,
+                "loanBalance": 2964.2,
+                "loanAmount": 21342.24
+            }
+        ]
+    }
+]

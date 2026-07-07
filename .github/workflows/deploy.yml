@@ -1,0 +1,23 @@
+name: mlk-backend-deploy
+on: 
+  push:
+    branches: [master]
+jobs:
+  deploy-job:
+    env:
+      GITHUB_TOKEN: ${{ secrets.PRODUCT_DEPLOY_SECRET }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Frontend
+        uses: appleboy/ssh-action@v0.1.2
+        with: 
+          host: ${{secrets.MLK_HOST}}
+          key: ${{secrets.MLK_KEY}}
+          username: ${{secrets.MLK_USER}}
+
+          script: |
+            cd /var/www/html/ums/backend
+            git pull origin master
+            nginx -s reload
+            echo 'Backend Deployment Succesful!' 
+              

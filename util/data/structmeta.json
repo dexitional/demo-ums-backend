@@ -1,0 +1,670 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "prog_id": 1,
+      "semester": 1,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": null
+        },
+        {
+          "major_id": 1,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": null
+        },
+        {
+          "major_id": 2,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prog_id": 1,
+      "semester": 2,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 4
+        },
+        {
+          "major_id": 1,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": null
+        },
+        {
+          "major_id": 2,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prog_id": 1,
+      "semester": 3,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 4
+        },
+        {
+          "major_id": 1,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 2
+        },
+        { "major_id": 2, "max_credit": 19, "min_credit": 18, "max_elective": 2 }
+      ]
+    },
+    {
+      "id": 4,
+      "prog_id": 1,
+      "semester": 4,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 4
+        },
+        {
+          "major_id": 1,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 2
+        },
+        { "major_id": 2, "max_credit": 19, "min_credit": 18, "max_elective": 2 }
+      ]
+    },
+    {
+      "id": 5,
+      "prog_id": 1,
+      "semester": 5,
+      "info": [
+        {
+          "major_id": 1,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 3
+        },
+        {
+          "major_id": 2,
+          "max_credit": 19,
+          "min_credit": 18,
+          "max_elective": 3
+        },
+        {
+          "major_id": 3,
+          "max_credit": 19,
+          "min_credit": 18,
+          "max_elective": 3
+        },
+        { "major_id": 4, "max_credit": 19, "min_credit": 18, "max_elective": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "prog_id": 1,
+      "semester": 6,
+      "info": [
+        {
+          "major_id": 1,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 2,
+          "max_credit": 19,
+          "min_credit": 18,
+          "max_elective": 2
+        },
+        {
+          "major_id": 3,
+          "max_credit": 19,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        { "major_id": 4, "max_credit": 19, "min_credit": 18, "max_elective": 5 }
+      ]
+    },
+    {
+      "id": 7,
+      "prog_id": 1,
+      "semester": 7,
+      "info": [
+        {
+          "major_id": 1,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 3
+        },
+        {
+          "major_id": 2,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 3
+        },
+        {
+          "major_id": 3,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 3
+        },
+        { "major_id": 4, "max_credit": 19, "min_credit": 15, "max_elective": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "prog_id": 1,
+      "semester": 8,
+      "info": [
+        {
+          "major_id": 1,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 4
+        },
+        {
+          "major_id": 2,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 4
+        },
+        {
+          "major_id": 3,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 4
+        },
+        { "major_id": 4, "max_credit": 19, "min_credit": 15, "max_elective": 4 }
+      ]
+    },
+    {
+      "id": 9,
+      "prog_id": 2,
+      "semester": 1,
+      "info": [
+        {
+          "major_id": 5,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 6,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 7,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 8,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 12,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "prog_id": 2,
+      "semester": 2,
+      "info": [
+        {
+          "major_id": 5,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 6,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 7,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 8,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 12,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "prog_id": 2,
+      "semester": 3,
+      "info": [
+        {
+          "major_id": 5,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 6,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 7,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 8,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 12,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "prog_id": 2,
+      "semester": 4,
+      "info": [
+        {
+          "major_id": 5,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 6,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 7,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 8,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 12,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "prog_id": 2,
+      "semester": 5,
+      "info": [
+        {
+          "major_id": 5,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 6,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 7,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 8,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 12,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "prog_id": 2,
+      "semester": 6,
+      "info": [
+        {
+          "major_id": 5,
+          "max_credit": 25,
+          "min_credit": 21,
+          "max_elective": 5
+        },
+        {
+          "major_id": 6,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 7,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 8,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 12,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "prog_id": 2,
+      "semester": 7,
+      "info": [
+        {
+          "major_id": 5,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 6,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 7,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 8,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        },
+        {
+          "major_id": 12,
+          "max_credit": 20,
+          "min_credit": 18,
+          "max_elective": 5
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "prog_id": 2,
+      "semester": 8,
+      "info": [
+        {
+          "major_id": 5,
+          "max_credit": 20,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 6,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 7,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 8,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        },
+        {
+          "major_id": 12,
+          "max_credit": 19,
+          "min_credit": 15,
+          "max_elective": 5
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "prog_id": 3,
+      "semester": 1,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 3
+        },
+        {
+          "major_id": 9,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 2
+        },
+        {
+          "major_id": 10,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 3
+        },
+        {
+          "major_id": 11,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 3
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "prog_id": 3,
+      "semester": 2,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        },
+        {
+          "major_id": 9,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        },
+        {
+          "major_id": 10,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        },
+        {
+          "major_id": 11,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "prog_id": 4,
+      "semester": 1,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        },
+        {
+          "major_id": 9,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 2
+        },
+        {
+          "major_id": 10,
+          "max_credit": 19,
+          "min_credit": 12,
+          "max_elective": 2
+        },
+        {
+          "major_id": 11,
+          "max_credit": 19,
+          "min_credit": 12,
+          "max_elective": 2
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "prog_id": 4,
+      "semester": 2,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        },
+        {
+          "major_id": 9,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 2
+        },
+        {
+          "major_id": 10,
+          "max_credit": 19,
+          "min_credit": 12,
+          "max_elective": 2
+        },
+        {
+          "major_id": 11,
+          "max_credit": 19,
+          "min_credit": 12,
+          "max_elective": 2
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "prog_id": 5,
+      "semester": 1,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "prog_id": 5,
+      "semester": 2,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "prog_id": 6,
+      "semester": 1,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "prog_id": 6,
+      "semester": 2,
+      "info": [
+        {
+          "major_id": null,
+          "max_credit": 20,
+          "min_credit": 12,
+          "max_elective": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+[
+  {
+    "id": "1",
+    "name": "PART OF FEES",
+    "type": "FEES",
+    "refno": "21091625",
+    "amount": "20.00",
+    "currency": "NULL",
+    "created_at": "2023-03-10 11:08:56",
+    "post_status": "1"
+  },
+  {
+    "id": "2",
+    "name": "Previous Years Arrears",
+    "type": "FEES",
+    "refno": "AUUG01160010",
+    "amount": "3880.00",
+    "currency": "NULL",
+    "created_at": "2023-04-27 11:20:26",
+    "post_status": "1"
+  },
+  {
+    "id": "3",
+    "name": "GRADUATION FEES - AUUG01180093",
+    "type": "GRADUATION",
+    "refno": "AUUG01180093",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:21",
+    "post_status": "1"
+  },
+  {
+    "id": "4",
+    "name": "GRADUATION FEES - AUUG09180126",
+    "type": "GRADUATION",
+    "refno": "AUUG09180126",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:22",
+    "post_status": "1"
+  },
+  {
+    "id": "5",
+    "name": "GRADUATION FEES - AUUG01190041",
+    "type": "GRADUATION",
+    "refno": "AUUG01190041",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:22",
+    "post_status": "1"
+  },
+  {
+    "id": "6",
+    "name": "GRADUATION FEES - AUUG01190042",
+    "type": "GRADUATION",
+    "refno": "AUUG01190042",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:23",
+    "post_status": "1"
+  },
+  {
+    "id": "7",
+    "name": "GRADUATION FEES - AUUG01190048",
+    "type": "GRADUATION",
+    "refno": "AUUG01190048",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:23",
+    "post_status": "1"
+  },
+  {
+    "id": "8",
+    "name": "GRADUATION FEES - AUUG01190062",
+    "type": "GRADUATION",
+    "refno": "AUUG01190062",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:24",
+    "post_status": "1"
+  },
+  {
+    "id": "9",
+    "name": "GRADUATION FEES - AUUG01190095",
+    "type": "GRADUATION",
+    "refno": "AUUG01190095",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:24",
+    "post_status": "1"
+  },
+  {
+    "id": "10",
+    "name": "GRADUATION FEES - AUUG09190012",
+    "type": "GRADUATION",
+    "refno": "AUUG09190012",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:24",
+    "post_status": "1"
+  },
+  {
+    "id": "11",
+    "name": "GRADUATION FEES - AUBS09191001",
+    "type": "GRADUATION",
+    "refno": "AUBS09191001",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:25",
+    "post_status": "1"
+  },
+  {
+    "id": "12",
+    "name": "GRADUATION FEES - AUBS09191004",
+    "type": "GRADUATION",
+    "refno": "AUBS09191004",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:26",
+    "post_status": "1"
+  },
+  {
+    "id": "13",
+    "name": "GRADUATION FEES - AUBS09191006",
+    "type": "GRADUATION",
+    "refno": "AUBS09191006",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:26",
+    "post_status": "1"
+  },
+  {
+    "id": "14",
+    "name": "GRADUATION FEES - AUBS09191009",
+    "type": "GRADUATION",
+    "refno": "AUBS09191009",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:26",
+    "post_status": "1"
+  },
+  {
+    "id": "15",
+    "name": "GRADUATION FEES - AUBS09191011",
+    "type": "GRADUATION",
+    "refno": "AUBS09191011",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:27",
+    "post_status": "1"
+  },
+  {
+    "id": "16",
+    "name": "GRADUATION FEES - AUBS09191012",
+    "type": "GRADUATION",
+    "refno": "AUBS09191012",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:27",
+    "post_status": "1"
+  },
+  {
+    "id": "17",
+    "name": "GRADUATION FEES - AUBS09191013",
+    "type": "GRADUATION",
+    "refno": "AUBS09191013",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:28",
+    "post_status": "1"
+  },
+  {
+    "id": "18",
+    "name": "GRADUATION FEES - AUBS09191014",
+    "type": "GRADUATION",
+    "refno": "AUBS09191014",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:28",
+    "post_status": "1"
+  },
+  {
+    "id": "19",
+    "name": "GRADUATION FEES - AUBS09191015",
+    "type": "GRADUATION",
+    "refno": "AUBS09191015",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:29",
+    "post_status": "1"
+  },
+  {
+    "id": "20",
+    "name": "GRADUATION FEES - AUBS09191016",
+    "type": "GRADUATION",
+    "refno": "AUBS09191016",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:29",
+    "post_status": "1"
+  },
+  {
+    "id": "21",
+    "name": "GRADUATION FEES - AUBS09191021",
+    "type": "GRADUATION",
+    "refno": "AUBS09191021",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:30",
+    "post_status": "1"
+  },
+  {
+    "id": "22",
+    "name": "GRADUATION FEES - AUBS09191022",
+    "type": "GRADUATION",
+    "refno": "AUBS09191022",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:30",
+    "post_status": "1"
+  },
+  {
+    "id": "23",
+    "name": "GRADUATION FEES - AUBS09181070",
+    "type": "GRADUATION",
+    "refno": "AUBS09181070",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:31",
+    "post_status": "1"
+  },
+  {
+    "id": "24",
+    "name": "GRADUATION FEES - AUBS09191024",
+    "type": "GRADUATION",
+    "refno": "AUBS09191024",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:31",
+    "post_status": "1"
+  },
+  {
+    "id": "25",
+    "name": "GRADUATION FEES - AUBS09191025",
+    "type": "GRADUATION",
+    "refno": "AUBS09191025",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:32",
+    "post_status": "1"
+  },
+  {
+    "id": "26",
+    "name": "GRADUATION FEES - AUBS09191026",
+    "type": "GRADUATION",
+    "refno": "AUBS09191026",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:32",
+    "post_status": "1"
+  },
+  {
+    "id": "27",
+    "name": "GRADUATION FEES - AUBS09191027",
+    "type": "GRADUATION",
+    "refno": "AUBS09191027",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:33",
+    "post_status": "1"
+  },
+  {
+    "id": "28",
+    "name": "GRADUATION FEES - AUUG09190105",
+    "type": "GRADUATION",
+    "refno": "AUUG09190105",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:34",
+    "post_status": "1"
+  },
+  {
+    "id": "29",
+    "name": "GRADUATION FEES - AUBS09191029",
+    "type": "GRADUATION",
+    "refno": "AUBS09191029",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:34",
+    "post_status": "1"
+  },
+  {
+    "id": "30",
+    "name": "GRADUATION FEES - AUBS09191031",
+    "type": "GRADUATION",
+    "refno": "AUBS09191031",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:35",
+    "post_status": "1"
+  },
+  {
+    "id": "31",
+    "name": "GRADUATION FEES - AUBS09191020",
+    "type": "GRADUATION",
+    "refno": "AUBS09191020",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:36",
+    "post_status": "1"
+  },
+  {
+    "id": "32",
+    "name": "GRADUATION FEES - AUMB01202002",
+    "type": "GRADUATION",
+    "refno": "AUMB01202002",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:36",
+    "post_status": "1"
+  },
+  {
+    "id": "33",
+    "name": "GRADUATION FEES - AUMB01202005",
+    "type": "GRADUATION",
+    "refno": "AUMB01202005",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:36",
+    "post_status": "1"
+  },
+  {
+    "id": "34",
+    "name": "GRADUATION FEES - AUMB01202006",
+    "type": "GRADUATION",
+    "refno": "AUMB01202006",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:36",
+    "post_status": "1"
+  },
+  {
+    "id": "35",
+    "name": "GRADUATION FEES - AUMB01202007",
+    "type": "GRADUATION",
+    "refno": "AUMB01202007",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:37",
+    "post_status": "1"
+  },
+  {
+    "id": "36",
+    "name": "GRADUATION FEES - AUMB01202008",
+    "type": "GRADUATION",
+    "refno": "AUMB01202008",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:37",
+    "post_status": "1"
+  },
+  {
+    "id": "37",
+    "name": "GRADUATION FEES - AUMB01202009",
+    "type": "GRADUATION",
+    "refno": "AUMB01202009",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:37",
+    "post_status": "1"
+  },
+  {
+    "id": "38",
+    "name": "GRADUATION FEES - AUMB01202011",
+    "type": "GRADUATION",
+    "refno": "AUMB01202011",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:37",
+    "post_status": "1"
+  },
+  {
+    "id": "39",
+    "name": "GRADUATION FEES - AUMB01202012",
+    "type": "GRADUATION",
+    "refno": "AUMB01202012",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:38",
+    "post_status": "1"
+  },
+  {
+    "id": "40",
+    "name": "GRADUATION FEES - AUMB01202013",
+    "type": "GRADUATION",
+    "refno": "AUMB01202013",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:38",
+    "post_status": "1"
+  },
+  {
+    "id": "41",
+    "name": "GRADUATION FEES - AUMB01202015",
+    "type": "GRADUATION",
+    "refno": "AUMB01202015",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:38",
+    "post_status": "1"
+  },
+  {
+    "id": "42",
+    "name": "GRADUATION FEES - AUMB01202016",
+    "type": "GRADUATION",
+    "refno": "AUMB01202016",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:38",
+    "post_status": "1"
+  },
+  {
+    "id": "43",
+    "name": "GRADUATION FEES - AUMB01202017",
+    "type": "GRADUATION",
+    "refno": "AUMB01202017",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:38",
+    "post_status": "1"
+  },
+  {
+    "id": "44",
+    "name": "GRADUATION FEES - AUMB01202018",
+    "type": "GRADUATION",
+    "refno": "AUMB01202018",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:39",
+    "post_status": "1"
+  },
+  {
+    "id": "45",
+    "name": "GRADUATION FEES - AUMB01202019",
+    "type": "GRADUATION",
+    "refno": "AUMB01202019",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:39",
+    "post_status": "1"
+  },
+  {
+    "id": "46",
+    "name": "GRADUATION FEES - AUMB01202021",
+    "type": "GRADUATION",
+    "refno": "AUMB01202021",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:39",
+    "post_status": "1"
+  },
+  {
+    "id": "47",
+    "name": "GRADUATION FEES - AUMB01202022",
+    "type": "GRADUATION",
+    "refno": "AUMB01202022",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:39",
+    "post_status": "1"
+  },
+  {
+    "id": "48",
+    "name": "GRADUATION FEES - AUMB01202023",
+    "type": "GRADUATION",
+    "refno": "AUMB01202023",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:40",
+    "post_status": "1"
+  },
+  {
+    "id": "49",
+    "name": "GRADUATION FEES - AUMB01202024",
+    "type": "GRADUATION",
+    "refno": "AUMB01202024",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:40",
+    "post_status": "1"
+  },
+  {
+    "id": "50",
+    "name": "GRADUATION FEES - AUMB01202025",
+    "type": "GRADUATION",
+    "refno": "AUMB01202025",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:40",
+    "post_status": "1"
+  },
+  {
+    "id": "51",
+    "name": "GRADUATION FEES - AUMB01202030",
+    "type": "GRADUATION",
+    "refno": "AUMB01202030",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:40",
+    "post_status": "1"
+  },
+  {
+    "id": "52",
+    "name": "GRADUATION FEES - AUMB01202029",
+    "type": "GRADUATION",
+    "refno": "AUMB01202029",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:41",
+    "post_status": "1"
+  },
+  {
+    "id": "53",
+    "name": "GRADUATION FEES - AUMB01202031",
+    "type": "GRADUATION",
+    "refno": "AUMB01202031",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:41",
+    "post_status": "1"
+  },
+  {
+    "id": "54",
+    "name": "GRADUATION FEES - AUMB01202032",
+    "type": "GRADUATION",
+    "refno": "AUMB01202032",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:41",
+    "post_status": "1"
+  },
+  {
+    "id": "55",
+    "name": "GRADUATION FEES - 21091567",
+    "type": "GRADUATION",
+    "refno": "21091567",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:42",
+    "post_status": "1"
+  },
+  {
+    "id": "56",
+    "name": "GRADUATION FEES - 21091998",
+    "type": "GRADUATION",
+    "refno": "21091998",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:42",
+    "post_status": "1"
+  },
+  {
+    "id": "57",
+    "name": "GRADUATION FEES - 21091556",
+    "type": "GRADUATION",
+    "refno": "21091556",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:42",
+    "post_status": "1"
+  },
+  {
+    "id": "58",
+    "name": "GRADUATION FEES - 21091986",
+    "type": "GRADUATION",
+    "refno": "21091986",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:42",
+    "post_status": "1"
+  },
+  {
+    "id": "59",
+    "name": "GRADUATION FEES - 23010372",
+    "type": "GRADUATION",
+    "refno": "23010372",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:43",
+    "post_status": "1"
+  },
+  {
+    "id": "60",
+    "name": "GRADUATION FEES - 23010715",
+    "type": "GRADUATION",
+    "refno": "23010715",
+    "amount": "450.00",
+    "currency": "GHC",
+    "created_at": "2023-10-23 19:48:43",
+    "post_status": "1"
+  },
+  {
+    "id": "61",
+    "name": "CORRECTIONS",
+    "type": "FEES",
+    "refno": "AUUG01160010",
+    "amount": "415.00",
+    "currency": "GHC",
+    "created_at": "2024-02-12 14:01:18",
+    "post_status": "1"
+  },
+  {
+    "id": "62",
+    "name": "CORRECTIONS",
+    "type": "FEES",
+    "refno": "AUUG01160010",
+    "amount": "50.00",
+    "currency": "GHC",
+    "created_at": "2024-02-12 14:04:22",
+    "post_status": "1"
+  },
+  {
+    "id": "63",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200014",
+    "type": "RESIT",
+    "refno": "AUUG09200014",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "64",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200186",
+    "type": "RESIT",
+    "refno": "AUUG09200186",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "65",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200143",
+    "type": "RESIT",
+    "refno": "AUUG09200143",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "66",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200151",
+    "type": "RESIT",
+    "refno": "AUUG09200151",
+    "amount": "30.00",
+    "currency": "USD",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "67",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200169",
+    "type": "RESIT",
+    "refno": "AUUG09200169",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "68",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200162",
+    "type": "RESIT",
+    "refno": "AUUG09200162",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "69",
+    "name": "RESIT CHARGE, COURSEID_100 - AUCC/0921/00643",
+    "type": "RESIT",
+    "refno": "AUCC/0921/00643",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "70",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200155",
+    "type": "RESIT",
+    "refno": "AUUG09200155",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "71",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200198",
+    "type": "RESIT",
+    "refno": "AUUG09200198",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "72",
+    "name": "RESIT CHARGE, COURSEID_100 - AUCC/0921/00089",
+    "type": "RESIT",
+    "refno": "AUCC/0921/00089",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "73",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200246",
+    "type": "RESIT",
+    "refno": "AUUG09200246",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "74",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200178",
+    "type": "RESIT",
+    "refno": "AUUG09200178",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "75",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200170",
+    "type": "RESIT",
+    "refno": "AUUG09200170",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  },
+  {
+    "id": "76",
+    "name": "RESIT CHARGE, COURSEID_100 - AUUG09200074",
+    "type": "RESIT",
+    "refno": "AUUG09200074",
+    "amount": "200.00",
+    "currency": "GHC",
+    "created_at": "2024-03-07 18:40:50",
+    "post_status": "1"
+  }
+]

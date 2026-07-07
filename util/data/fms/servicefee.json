@@ -1,0 +1,44 @@
+[
+  {
+    "transtype_id": "03",
+    "amount_ghc": "200.00",
+    "amount_usd": "30.00",
+    "created_at": "2021-09-30 22:27:49",
+    "updated_at": "2023-12-14 14:12:39"
+  },
+  {
+    "transtype_id": "04",
+    "amount_ghc": "700.00",
+    "amount_usd": "70.00",
+    "created_at": "2021-09-30 22:27:49",
+    "updated_at": "2023-12-14 14:13:19"
+  },
+  {
+    "transtype_id": "05",
+    "amount_ghc": "50.00",
+    "amount_usd": "5.00",
+    "created_at": "2023-04-27 11:12:48",
+    "updated_at": "2023-12-14 14:13:34"
+  },
+  {
+    "transtype_id": "06",
+    "amount_ghc": "40.00",
+    "amount_usd": "5.00",
+    "created_at": "2023-04-27 11:13:43",
+    "updated_at": "2023-12-14 14:13:49"
+  },
+  {
+    "transtype_id": "08",
+    "amount_ghc": "150.00",
+    "amount_usd": "15.00",
+    "created_at": "2023-12-14 14:05:04",
+    "updated_at": "NULL"
+  },
+  {
+    "transtype_id": "09",
+    "amount_ghc": "40.00",
+    "amount_usd": "5.00",
+    "created_at": "2023-04-27 11:15:48",
+    "updated_at": "2023-12-14 14:14:04"
+  }
+]

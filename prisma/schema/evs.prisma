@@ -1,0 +1,104 @@
+// EVS - ELECTA VOTING  MODELS
+
+model election {
+  id             Int           @id @default(autoincrement())
+  groupId        Int?
+  type           String        @db.VarChar(300)
+  title          String?       @db.VarChar(450)
+  tag            String?       @db.VarChar(100)
+  logo           String?       @db.VarChar(450)
+  admins         Json?
+  voterCount     Int           @default(0)
+  voterList      Json?
+  voterData      Json?
+  allowMonitor   Boolean       @default(false)
+  allowEcMonitor Boolean       @default(false)
+  allowVip       Boolean       @default(false)
+  allowEcVip     Boolean       @default(false)
+  allowResult    Boolean       @default(false)
+  allowEcResult  Boolean       @default(false)
+  allowMask      Boolean       @default(false)
+  autoStop       Boolean       @default(false)
+  startAt        DateTime?     @db.DateTime(0)
+  endAt          DateTime?     @db.DateTime(0)
+  action         EvsActionType @default(STAGED)
+  status         Boolean       @default(true) 
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  group     group?      @relation(fields: [groupId], references: [id])
+  portfolio portfolio[]
+  elector   elector[]
+  attack    attack[]
+
+  @@map("evs_election")
+}
+
+model elector {
+  id         Int      @id @default(autoincrement())
+  electionId Int
+  tag        String?  @db.VarChar(100)
+  name       String?  @db.VarChar(450)
+  descriptor String?  @db.VarChar(450)
+  gender     String?  @db.VarChar(1)
+  voteTime   DateTime @default(now())
+  voteSum    String?  @db.VarChar(750)
+  voteHash   String?  @db.VarChar(100)
+  voteIp     String?  @db.VarChar(50)
+  voteStatus Boolean  @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  election election? @relation(fields: [electionId], references: [id])
+
+  @@map("evs_elector")
+}
+
+model portfolio {
+  id         Int     @id @default(autoincrement())
+  electionId Int
+  title      String? @db.Text
+  status     Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  election  election?   @relation(fields: [electionId], references: [id])
+  candidate candidate[]
+
+  @@map("evs_portfolio")
+}
+
+model candidate {
+  id          Int     @id @default(autoincrement())
+  portfolioId Int?
+  tag         String? @db.VarChar(100)
+  name        String? @db.VarChar(450)
+  teaser      String? @db.VarChar(100)
+  orderNo     Int     @default(1)
+  photo       String? @db.VarChar(450)
+  votes       Int     @default(0)
+  status      Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  portfolio portfolio? @relation(fields: [portfolioId], references: [id])
+
+  @@map("evs_candidate")
+}
+
+model attack {
+  id         Int      @id @default(autoincrement())
+  electionId Int?
+  tag        String?  @db.VarChar(100)
+  location   String?  @db.VarChar(450)
+  ip         String?  @db.VarChar(50)
+  meta       String?  @db.Text
+  createdAt  DateTime @default(now())
+
+  election election? @relation(fields: [electionId], references: [id])
+
+  @@map("evs_attack")
+}
