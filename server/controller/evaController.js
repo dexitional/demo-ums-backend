@@ -161,7 +161,7 @@ class EvaController {
                     },
                     orderBy: { fname: 'asc' }
                 });
-                const formattedStaff = staff.map(s => ({
+                const formattedStaff = staff.map((s) => ({
                     staffNo: s.staffNo,
                     name: `${s.fname} ${s.lname}`
                 }));
@@ -191,7 +191,7 @@ class EvaController {
                     },
                     orderBy: { fname: 'asc' }
                 });
-                const formattedStudents = students.map(s => ({
+                const formattedStudents = students.map((s) => ({
                     indexno: s.indexno,
                     name: `${s.fname} ${s.lname}`
                 }));

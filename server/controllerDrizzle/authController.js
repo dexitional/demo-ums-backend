@@ -63,7 +63,7 @@ class AuthController {
                     // SSO Photo
                     const photo = `${process.env.UMS_DOMAIN}/api/auth/photos/?tag=${encodeURIComponent(tag)}`;
                     // Roles & Privileges
-                    const roles = yield sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, app: true } } } });
+                    const roles = yield sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, appModule: { select: { tag: true, app: { select: { tag: true, title: true } } } } } } } });
                     const evsRoles = yield sso.election.findMany({
                         where: {
                             status: true,
@@ -92,7 +92,8 @@ class AuthController {
                         userdata.roles = [
                             ...userdata.roles,
                             ...(roles.map((r) => {
-                                if (r.appRole.app.tag == 'evs')
+                                var _a, _b;
+                                if (((_b = (_a = r.appRole.appModule) === null || _a === void 0 ? void 0 : _a.app) === null || _b === void 0 ? void 0 : _b.tag) == 'evs')
                                     return ({ id: 0, isAdmin: true, appRole: { app: { tag: 'evs', title: "Election Admin" } } });
                                 return r;
                             }))
@@ -244,7 +245,7 @@ class AuthController {
                     // SSO Photo
                     const photo = `${process.env.UMS_DOMAIN}/auth/photos/?tag=${encodeURIComponent(tag)}`;
                     // Roles & Privileges
-                    const roles = yield sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, app: true } } } });
+                    const roles = yield sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, appModule: { select: { tag: true, app: { select: { tag: true, title: true } } } } } } } });
                     const evsRoles = yield sso.election.findMany({
                         where: {
                             status: true,
@@ -416,7 +417,7 @@ class AuthController {
                 const en = yield sso.election.findFirst({ where: { id: Number(id), status: true } });
                 if (en) {
                     const ev = yield sso.elector.findMany({ select: { tag: true }, where: { electionId: Number(id) } });
-                    let users = (_a = en === null || en === void 0 ? void 0 : en.voterData) === null || _a === void 0 ? void 0 : _a.filter((r) => !ev.find(m => { var _a, _b; return ((_a = m.tag) === null || _a === void 0 ? void 0 : _a.toLowerCase()) == ((_b = r.tag) === null || _b === void 0 ? void 0 : _b.toLowerCase()); }));
+                    let users = (_a = en === null || en === void 0 ? void 0 : en.voterData) === null || _a === void 0 ? void 0 : _a.filter((r) => !ev.find((m) => { var _a, _b; return ((_a = m.tag) === null || _a === void 0 ? void 0 : _a.toLowerCase()) == ((_b = r.tag) === null || _b === void 0 ? void 0 : _b.toLowerCase()); }));
                     if (users === null || users === void 0 ? void 0 : users.length) {
                         const resp = yield Promise.all(users === null || users === void 0 ? void 0 : users.map((row, i) => __awaiter(this, void 0, void 0, function* () {
                             var _a, _b, _c, _d, _e, _f;

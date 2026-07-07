@@ -46,7 +46,7 @@ export default class AuthController {
         // SSO Photo
         const photo = `${process.env.UMS_DOMAIN}/api/auth/photos/?tag=${encodeURIComponent(tag)}`;
         // Roles & Privileges
-        const roles: any = await sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, app:true } } } });
+        const roles: any = await sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, appModule: { select: { tag: true, app: { select: { tag: true, title: true } } } } } } } });
         const evsRoles: any = await sso.election.findMany({
           where: {
             status: true,
@@ -77,7 +77,7 @@ export default class AuthController {
         if (roles?.length) userdata.roles = [
           ...userdata.roles, 
           ...(roles.map((r:any) => {
-              if(r.appRole.app.tag == 'evs') return ({ id: 0, isAdmin: true, appRole: { app: { tag: 'evs', title: "Election Admin" } }});
+              if(r.appRole.appModule?.app?.tag == 'evs') return ({ id: 0, isAdmin: true, appRole: { app: { tag: 'evs', title: "Election Admin" } }});
               return r;
           }))
         ]
@@ -224,7 +224,7 @@ export default class AuthController {
         // SSO Photo
         const photo = `${process.env.UMS_DOMAIN}/auth/photos/?tag=${encodeURIComponent(tag)}`;
         // Roles & Privileges
-        const roles: any = await sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, app: true } } } });
+        const roles: any = await sso.userRole.findMany({ where: { userId: id }, include: { appRole: { select: { title: true, appModule: { select: { tag: true, app: { select: { tag: true, title: true } } } } } } } });
         const evsRoles: any = await sso.election.findMany({
           where: {
             status: true,
@@ -391,7 +391,7 @@ export default class AuthController {
       const en:any = await sso.election.findFirst({ where: { id: Number(id), status: true } });
       if (en) {
         const ev = await sso.elector.findMany({ select: {tag: true }, where: { electionId: Number(id)} });
-        let users: any = en?.voterData?.filter((r:any) => !ev.find(m => m.tag?.toLowerCase() == r.tag?.toLowerCase()));
+        let users: any = en?.voterData?.filter((r:any) => !ev.find((m: { tag?: string | null }) => m.tag?.toLowerCase() == r.tag?.toLowerCase()));
         if (users?.length) {
           const resp: any = await Promise.all(users?.map(async (row: any, i: number) => {
             // if(i == 0){

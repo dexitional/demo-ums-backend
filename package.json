@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "npx tsc",
+    "build": "prisma generate && npx tsc",
+    "postinstall": "prisma generate",
     "start": "node server/index.js",
     "dev": "kill -9 $(lsof -ti:5030) && concurrently \"npx tsc --watch\" \"nodemon server/index.js\"",
     "dev2": "concurrently \"npx tsc --watch\" \"nodemon --delay 500ms -q server/index.js\"",

@@ -6,7 +6,6 @@ import fs from "fs";
 import path from "path";
 import { getClass, getGrade, getGradePoint, getOrSetCache } from "../util/helper";
 import { paramStr } from "../util/paramStr";
-import { completeType } from "@prisma/client";
 import { graduateSession } from "../drizzle/schema";
 const ais: any = prisma;
 const sha1 = require('sha1');

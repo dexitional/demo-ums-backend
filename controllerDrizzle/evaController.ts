@@ -143,7 +143,7 @@ export default class EvaController {
                 orderBy: { fname: 'asc' }
             });
 
-            const formattedStaff = staff.map(s => ({
+            const formattedStaff = staff.map((s: { staffNo: string | null; fname: string | null; lname: string | null }) => ({
                 staffNo: s.staffNo,
                 name: `${s.fname} ${s.lname}`
             }));
@@ -172,7 +172,7 @@ export default class EvaController {
                 orderBy: { fname: 'asc' }
             });
 
-            const formattedStudents = students.map(s => ({
+            const formattedStudents = students.map((s: { indexno: string | null; fname: string | null; lname: string | null }) => ({
                 indexno: s.indexno,
                 name: `${s.fname} ${s.lname}`
             }));
@@ -477,7 +477,7 @@ export default class EvaController {
             const courseStats: any = {};
             const lecturerStats: any = {};
 
-            evaluations.forEach((evaluation) => {
+            evaluations.forEach((evaluation: { course: { title: string }; staff: { fname: string; lname: string } | null }) => {
                 const courseName = evaluation.course.title;
                 const lecturerName = evaluation.staff ? `${evaluation.staff.fname} ${evaluation.staff.lname}` : 'Unknown';
 
